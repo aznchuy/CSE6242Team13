@@ -1,0 +1,2351 @@
+id,Disease,Year,Summed_Cost,Weighted_Prevalence
+1,Acute Bronchitis and Bronchiolitis,2011,13442421.56,0
+1,Acute Bronchitis and Bronchiolitis,2012,9306338.714,0
+1,Acute Respiratory Diagnoses - Moderate,2011,11501066,0
+1,Acute Respiratory Diagnoses - Moderate,2012,6295758.19,0
+1,Acute Skin Diagnoses,2011,14342429.62,0
+1,Acute Skin Diagnoses,2012,9025724.211,0
+1,Acute Stress and Anxiety,2011,2965975.949,0
+1,Acute Stress and Anxiety,2012,2248072.663,0
+1,ADHD,2011,21980100.28,0
+1,ADHD,2012,15643551.13,0
+1,Allergies,2011,24934286.84,0
+1,Allergies,2012,17783080.55,0
+1,Asthma,2011,25195490.38,0
+1,Asthma,2012,17120671.13,0
+1,Autism,2011,1779796.522,0
+1,Autism,2012,1226041.343,0
+1,BiPolar,2011,1704869.862,0
+1,BiPolar,2012,1371901.317,0
+1,Chronic Mental Health,2011,1122766.163,0
+1,Chronic Mental Health,2012,839243.8058,0
+1,Chronic Stress,2011,1080210.765,0
+1,Chronic Stress,2012,745222.401,0
+1,Conduct and Behavior,2011,7225906.971,0
+1,Conduct and Behavior,2012,5771126.332,0
+1,Conjunctivitis and Eye Diagnoses,2011,0,0
+1,Conjunctivitis and Eye Diagnoses,2012,137.8,0
+1,Dental Diagnoses,2011,3562514.102,0
+1,Dental Diagnoses,2012,2430241.772,0
+1,Depression,2011,6533845.543,0
+1,Depression,2012,4827248.61,0
+1,Depressive and Other Psychoses,2011,4047946.49,0
+1,Depressive and Other Psychoses,2012,3272278.729,0
+1,Developmental Language Disorder,2011,1291102.756,0
+1,Developmental Language Disorder,2012,813929.3238,0
+1,Developmental Speech and Learning,2011,2366942.77,0
+1,Developmental Speech and Learning,2012,1661538.474,0
+1,Diabetes2,2011,1887818.869,0
+1,Diabetes2,2012,1130359.88,0
+1,Epilepsy and Epilepsy Complex,2011,1495421.955,0
+1,Epilepsy and Epilepsy Complex,2012,984635.8054,0
+1,Major Mental Health,2011,20176422.23,0
+1,Major Mental Health,2012,14903894.79,0
+1,Psoriasis,2011,1536560.082,0
+1,Psoriasis,2012,690437.5722,0
+1,Schizophrenia,2011,4722792.573,0
+1,Schizophrenia,2012,3581966.931,0
+1,Social Problems,2011,22265005.19,0
+1,Social Problems,2012,15268259.2,0
+1,Upper Respiratory Infectons,2011,49062626.53,0
+1,Upper Respiratory Infectons,2012,32967970.13,0
+2,Acute Bronchitis and Bronchiolitis,2011,4410475.073,0
+2,Acute Bronchitis and Bronchiolitis,2012,5171282.785,0
+2,Acute Respiratory Diagnoses - Moderate,2011,2909872.891,0
+2,Acute Respiratory Diagnoses - Moderate,2012,3022502.947,0
+2,Acute Skin Diagnoses,2011,6062732.147,0
+2,Acute Skin Diagnoses,2012,6926223.505,0
+2,Acute Stress and Anxiety,2011,2440269.963,0
+2,Acute Stress and Anxiety,2012,2785417.944,0
+2,ADHD,2011,6247441.11,0
+2,ADHD,2012,8455801.944,0
+2,Allergies,2011,3005761.061,0
+2,Allergies,2012,3443529.52,0
+2,Asthma,2011,3803297.021,0
+2,Asthma,2012,4312084.15,0
+2,Autism,2011,1229746.519,0
+2,Autism,2012,1699715.064,0
+2,BiPolar,2011,1251851.596,0
+2,BiPolar,2012,1992266.55,0
+2,Chronic Mental Health,2011,3102051.582,0
+2,Chronic Mental Health,2012,5057312.977,0
+2,Chronic Stress,2011,477840.7005,0
+2,Chronic Stress,2012,1021780.187,0
+2,Conduct and Behavior,2011,4346986.103,0
+2,Conduct and Behavior,2012,5294542.925,0
+2,Conjunctivitis and Eye Diagnoses,2011,0,0
+2,Conjunctivitis and Eye Diagnoses,2012,0,0
+2,Dental Diagnoses,2011,5319417.693,0
+2,Dental Diagnoses,2012,5574135.817,0
+2,Depression,2011,3340426.025,0
+2,Depression,2012,5915672.301,0
+2,Depressive and Other Psychoses,2011,2397557.252,0
+2,Depressive and Other Psychoses,2012,4331875.745,0
+2,Developmental Language Disorder,2011,1449940.318,0
+2,Developmental Language Disorder,2012,1650108.568,0
+2,Developmental Speech and Learning,2011,1497433.16,0
+2,Developmental Speech and Learning,2012,1604144.499,0
+2,Diabetes2,2011,478954.8325,0
+2,Diabetes2,2012,789308.5295,0
+2,Epilepsy and Epilepsy Complex,2011,304307.6007,0
+2,Epilepsy and Epilepsy Complex,2012,270368.2898,0
+2,Major Mental Health,2011,12370478.47,0
+2,Major Mental Health,2012,21962835.96,0
+2,Psoriasis,2011,356581.7098,0
+2,Psoriasis,2012,408489.9543,0
+2,Schizophrenia,2011,1682205.595,0
+2,Schizophrenia,2012,3035384.137,0
+2,Social Problems,2011,2364611.473,0
+2,Social Problems,2012,4043328.766,0
+2,Upper Respiratory Infectons,2011,15652609.81,0
+2,Upper Respiratory Infectons,2012,17056518.81,0
+4,Acute Bronchitis and Bronchiolitis,2011,20823624.36,0
+4,Acute Bronchitis and Bronchiolitis,2012,28672030.25,0
+4,Acute Respiratory Diagnoses - Moderate,2011,10840617.89,0
+4,Acute Respiratory Diagnoses - Moderate,2012,13886789.73,0
+4,Acute Skin Diagnoses,2011,27309775.83,0
+4,Acute Skin Diagnoses,2012,34303334.81,0
+4,Acute Stress and Anxiety,2011,3873050.66,0
+4,Acute Stress and Anxiety,2012,3922070.308,0
+4,ADHD,2011,23567824.99,0
+4,ADHD,2012,25050614.35,0
+4,Allergies,2011,31978004.62,0
+4,Allergies,2012,36501172.74,0
+4,Asthma,2011,29047568.49,0
+4,Asthma,2012,33275911.95,0
+4,Autism,2011,32000842.37,0
+4,Autism,2012,35458089.55,0
+4,BiPolar,2011,2430654.65,0
+4,BiPolar,2012,2565690.826,0
+4,Chronic Mental Health,2011,5282963.053,0
+4,Chronic Mental Health,2012,6791727.953,0
+4,Chronic Stress,2011,1466139.848,0
+4,Chronic Stress,2012,1462084.685,0
+4,Conduct and Behavior,2011,6526674.418,0
+4,Conduct and Behavior,2012,6908382.85,0
+4,Conjunctivitis and Eye Diagnoses,2011,0,0
+4,Conjunctivitis and Eye Diagnoses,2012,0,0
+4,Dental Diagnoses,2011,17476462.65,0
+4,Dental Diagnoses,2012,21437895.84,0
+4,Depression,2011,6240867.322,0
+4,Depression,2012,5958670.076,0
+4,Depressive and Other Psychoses,2011,5675735.742,0
+4,Depressive and Other Psychoses,2012,5492497.082,0
+4,Developmental Language Disorder,2011,2048492.57,0
+4,Developmental Language Disorder,2012,2589918.734,0
+4,Developmental Speech and Learning,2011,5170435.806,0
+4,Developmental Speech and Learning,2012,6271382.695,0
+4,Diabetes2,2011,1528751.105,0
+4,Diabetes2,2012,1682074.134,0
+4,Epilepsy and Epilepsy Complex,2011,1703042.521,0
+4,Epilepsy and Epilepsy Complex,2012,2124420.969,0
+4,Major Mental Health,2011,29412644.64,0
+4,Major Mental Health,2012,29332296.89,0
+4,Psoriasis,2011,2072814.896,0
+4,Psoriasis,2012,2085895.055,0
+4,Schizophrenia,2011,5860330.399,0
+4,Schizophrenia,2012,6012628.763,0
+4,Social Problems,2011,17261921.97,0
+4,Social Problems,2012,22855691.66,0
+4,Upper Respiratory Infectons,2011,105576342.1,0
+4,Upper Respiratory Infectons,2012,131288685.5,0
+5,Acute Bronchitis and Bronchiolitis,2011,14527021.33,0
+5,Acute Bronchitis and Bronchiolitis,2012,16971318.91,0
+5,Acute Respiratory Diagnoses - Moderate,2011,9168818.148,0
+5,Acute Respiratory Diagnoses - Moderate,2012,10646045.86,0
+5,Acute Skin Diagnoses,2011,15782533.96,0
+5,Acute Skin Diagnoses,2012,18753418.23,0
+5,Acute Stress and Anxiety,2011,4181555.774,0
+5,Acute Stress and Anxiety,2012,6526325.443,0
+5,ADHD,2011,32994792.57,0
+5,ADHD,2012,40495355.39,0
+5,Allergies,2011,25778270.96,0
+5,Allergies,2012,29191857,0
+5,Asthma,2011,17049270.82,0
+5,Asthma,2012,19737748.01,0
+5,Autism,2011,3367927.359,0
+5,Autism,2012,4026343.737,0
+5,BiPolar,2011,2369588.641,0
+5,BiPolar,2012,5887856.743,0
+5,Chronic Mental Health,2011,1647314.011,0
+5,Chronic Mental Health,2012,3015888.975,0
+5,Chronic Stress,2011,2079378.935,0
+5,Chronic Stress,2012,3029288.329,0
+5,Conduct and Behavior,2011,15210602.68,0
+5,Conduct and Behavior,2012,28073102.36,0
+5,Conjunctivitis and Eye Diagnoses,2011,0,0
+5,Conjunctivitis and Eye Diagnoses,2012,0,0
+5,Dental Diagnoses,2011,5083998.937,0
+5,Dental Diagnoses,2012,6564385.531,0
+5,Depression,2011,7833278.795,0
+5,Depression,2012,14405709.3,0
+5,Depressive and Other Psychoses,2011,5881013.729,0
+5,Depressive and Other Psychoses,2012,13690377.78,0
+5,Developmental Language Disorder,2011,11354482.48,0
+5,Developmental Language Disorder,2012,14861991.18,0
+5,Developmental Speech and Learning,2011,12737156.16,0
+5,Developmental Speech and Learning,2012,16367569.5,0
+5,Diabetes2,2011,1065655.898,0
+5,Diabetes2,2012,1381565.429,0
+5,Epilepsy and Epilepsy Complex,2011,1284542.367,0
+5,Epilepsy and Epilepsy Complex,2012,1249740.912,0
+5,Major Mental Health,2011,38529646.59,0
+5,Major Mental Health,2012,69039539.6,0
+5,Psoriasis,2011,802610.2053,0
+5,Psoriasis,2012,575924.9713,0
+5,Schizophrenia,2011,5601873.605,0
+5,Schizophrenia,2012,9326846.518,0
+5,Social Problems,2011,4526086.653,0
+5,Social Problems,2012,8119341.484,0
+5,Upper Respiratory Infectons,2011,53663683.93,0
+5,Upper Respiratory Infectons,2012,55302395.17,0
+6,Acute Bronchitis and Bronchiolitis,2011,89230488.71,0
+6,Acute Bronchitis and Bronchiolitis,2012,85505167.27,0
+6,Acute Respiratory Diagnoses - Moderate,2011,64456977.4,0
+6,Acute Respiratory Diagnoses - Moderate,2012,74591561.38,0
+6,Acute Skin Diagnoses,2011,95985524.45,0
+6,Acute Skin Diagnoses,2012,120078118.1,0
+6,Acute Stress and Anxiety,2011,29615241.65,0
+6,Acute Stress and Anxiety,2012,44889701.92,0
+6,ADHD,2011,84974262.1,0
+6,ADHD,2012,116111519.2,0
+6,Allergies,2011,98383544.45,0
+6,Allergies,2012,118064354.9,0
+6,Asthma,2011,113802408.8,0
+6,Asthma,2012,137327415,0
+6,Autism,2011,70039060.55,0
+6,Autism,2012,120989980.5,0
+6,BiPolar,2011,12825757.25,0
+6,BiPolar,2012,15882817.77,0
+6,Chronic Mental Health,2011,19046521.13,0
+6,Chronic Mental Health,2012,21496230.95,0
+6,Chronic Stress,2011,14785215.52,0
+6,Chronic Stress,2012,17500075.49,0
+6,Conduct and Behavior,2011,57768088.24,0
+6,Conduct and Behavior,2012,83565169.49,0
+6,Conjunctivitis and Eye Diagnoses,2011,1061.15375,0
+6,Conjunctivitis and Eye Diagnoses,2012,6026.191561,0
+6,Dental Diagnoses,2011,85715672.49,0
+6,Dental Diagnoses,2012,120767331.5,0
+6,Depression,2011,57112936.48,0
+6,Depression,2012,81840018.85,0
+6,Depressive and Other Psychoses,2011,33864688.41,0
+6,Depressive and Other Psychoses,2012,49119478.64,0
+6,Developmental Language Disorder,2011,7558924.882,0
+6,Developmental Language Disorder,2012,11364152.77,0
+6,Developmental Speech and Learning,2011,87548024.73,0
+6,Developmental Speech and Learning,2012,108309840.9,0
+6,Diabetes2,2011,11242939.08,0
+6,Diabetes2,2012,17615491.32,0
+6,Epilepsy and Epilepsy Complex,2011,9936493.438,0
+6,Epilepsy and Epilepsy Complex,2012,11644947.49,0
+6,Major Mental Health,2011,189050828.4,0
+6,Major Mental Health,2012,217502394.9,0
+6,Psoriasis,2011,4182718.221,0
+6,Psoriasis,2012,5131320.65,0
+6,Schizophrenia,2011,27464954.78,0
+6,Schizophrenia,2012,33842018.45,0
+6,Social Problems,2011,27002717.12,0
+6,Social Problems,2012,35789159.5,0
+6,Upper Respiratory Infectons,2011,363477104.9,0
+6,Upper Respiratory Infectons,2012,391790558.9,0
+9,Acute Bronchitis and Bronchiolitis,2011,6184888.777,0
+9,Acute Bronchitis and Bronchiolitis,2012,5737183.345,0
+9,Acute Respiratory Diagnoses - Moderate,2011,6234960.191,0
+9,Acute Respiratory Diagnoses - Moderate,2012,7544614.568,0
+9,Acute Skin Diagnoses,2011,15632498.12,0
+9,Acute Skin Diagnoses,2012,13267733.12,0
+9,Acute Stress and Anxiety,2011,4242188.281,0
+9,Acute Stress and Anxiety,2012,5697087.002,0
+9,ADHD,2011,15687174.24,0
+9,ADHD,2012,16123412.78,0
+9,Allergies,2011,12010289.9,0
+9,Allergies,2012,11012951.67,0
+9,Asthma,2011,17945081.35,0
+9,Asthma,2012,18038931.49,0
+9,Autism,2011,1520238.959,0
+9,Autism,2012,1997348.47,0
+9,BiPolar,2011,2655593.838,0
+9,BiPolar,2012,2730336.754,0
+9,Chronic Mental Health,2011,3089488.301,0
+9,Chronic Mental Health,2012,3794794.402,0
+9,Chronic Stress,2011,1618852.298,0
+9,Chronic Stress,2012,1919291.774,0
+9,Conduct and Behavior,2011,7569854.164,0
+9,Conduct and Behavior,2012,8094968.613,0
+9,Conjunctivitis and Eye Diagnoses,2011,3777.666667,0
+9,Conjunctivitis and Eye Diagnoses,2012,0,0
+9,Dental Diagnoses,2011,3502236.302,0
+9,Dental Diagnoses,2012,7681687.822,0
+9,Depression,2011,7062931.958,0
+9,Depression,2012,7610923.697,0
+9,Depressive and Other Psychoses,2011,6980406.758,0
+9,Depressive and Other Psychoses,2012,8037998.951,0
+9,Developmental Language Disorder,2011,1092184.058,0
+9,Developmental Language Disorder,2012,1246677.831,0
+9,Developmental Speech and Learning,2011,1306899.863,0
+9,Developmental Speech and Learning,2012,1410802.972,0
+9,Diabetes2,2011,1178893.112,0
+9,Diabetes2,2012,1527202.642,0
+9,Epilepsy and Epilepsy Complex,2011,757596.944,0
+9,Epilepsy and Epilepsy Complex,2012,1037773.846,0
+9,Major Mental Health,2011,24187728.79,0
+9,Major Mental Health,2012,26102560.05,0
+9,Psoriasis,2011,878177.6895,0
+9,Psoriasis,2012,1005127.533,0
+9,Schizophrenia,2011,4870653.409,0
+9,Schizophrenia,2012,5380689.61,0
+9,Social Problems,2011,2279298.888,0
+9,Social Problems,2012,2208197.638,0
+9,Upper Respiratory Infectons,2011,38937164.6,0
+9,Upper Respiratory Infectons,2012,30784005.91,0
+10,Acute Bronchitis and Bronchiolitis,2011,5006040.554,0.09425092
+10,Acute Bronchitis and Bronchiolitis,2012,4540432.318,0.091700972
+10,Acute Respiratory Diagnoses - Moderate,2011,3097354.198,0.055615536
+10,Acute Respiratory Diagnoses - Moderate,2012,3363737.262,0.057393321
+10,Acute Skin Diagnoses,2011,4491130.617,0.087785311
+10,Acute Skin Diagnoses,2012,5098255.19,0.090809002
+10,Acute Stress and Anxiety,2011,761484.6772,0.010766807
+10,Acute Stress and Anxiety,2012,1114187.016,0.01175333
+10,ADHD,2011,7771332.054,0.08929334
+10,ADHD,2012,8646800.95,0.091677766
+10,Allergies,2011,4064075.03,0.089764324
+10,Allergies,2012,4512453.406,0.09217947
+10,Asthma,2011,6226199.18,0.111266013
+10,Asthma,2012,6698573.247,0.111005094
+10,Autism,2011,645462.8057,0.004655058
+10,Autism,2012,686965.9285,0.004432666
+10,BiPolar,2011,689597.8995,0.005336248
+10,BiPolar,2012,671421.5457,0.00470365
+10,Chronic Mental Health,2011,417581.9594,0.005046101
+10,Chronic Mental Health,2012,496608.0201,0.005126698
+10,Chronic Stress,2011,275362.4128,0.003469681
+10,Chronic Stress,2012,353730.3547,0.003459285
+10,Conduct and Behavior,2011,2032021.355,0.02099859
+10,Conduct and Behavior,2012,2342526.86,0.022328877
+10,Conjunctivitis and Eye Diagnoses,2011,0,0
+10,Conjunctivitis and Eye Diagnoses,2012,0,0
+10,Dental Diagnoses,2011,29163532.67,0.488869949
+10,Dental Diagnoses,2012,34331124.71,0.512228537
+10,Depression,2011,1832110.933,0.017069808
+10,Depression,2012,2030356.205,0.017312285
+10,Depressive and Other Psychoses,2011,1483987.896,0.014173122
+10,Depressive and Other Psychoses,2012,1734919.66,0.014861093
+10,Developmental Language Disorder,2011,225661.9993,0.004933377
+10,Developmental Language Disorder,2012,255778.0878,0.004585191
+10,Developmental Speech and Learning,2011,6228158.411,0.070675874
+10,Developmental Speech and Learning,2012,5632700.248,0.067008205
+10,Diabetes2,2011,334574.1742,0.002736285
+10,Diabetes2,2012,417378.5491,0.00269677
+10,Epilepsy and Epilepsy Complex,2011,210780.6297,0.002980699
+10,Epilepsy and Epilepsy Complex,2012,237832.645,0.002788704
+10,Major Mental Health,2011,7361704.608,0.035631323
+10,Major Mental Health,2012,8328495.652,0.036800226
+10,Psoriasis,2011,161832.3434,0.003487035
+10,Psoriasis,2012,222965.4635,0.004992954
+10,Schizophrenia,2011,1800653.035,0.014812594
+10,Schizophrenia,2012,2074909.203,0.01542512
+10,Social Problems,2011,497862.3335,0.006425799
+10,Social Problems,2012,356014.7133,0.004418744
+10,Upper Respiratory Infectons,2011,13935544.12,0.276583463
+10,Upper Respiratory Infectons,2012,14213399.14,0.26416592
+12,Acute Bronchitis and Bronchiolitis,2011,42599413.4,0.089612647
+12,Acute Bronchitis and Bronchiolitis,2012,42830567.7,0.092884828
+12,Acute Respiratory Diagnoses - Moderate,2011,34126220.28,0.042839848
+12,Acute Respiratory Diagnoses - Moderate,2012,35006401.19,0.042940667
+12,Acute Skin Diagnoses,2011,44990367.94,0.075773479
+12,Acute Skin Diagnoses,2012,43268433.03,0.075389523
+12,Acute Stress and Anxiety,2011,5490832.274,0.007647662
+12,Acute Stress and Anxiety,2012,7117010.899,0.009335442
+12,ADHD,2011,54932246.23,0.067814198
+12,ADHD,2012,56411190.6,0.07303031
+12,Allergies,2011,58986024.39,0.116402885
+12,Allergies,2012,57625031.7,0.119381706
+12,Asthma,2011,69867881.16,0.105875505
+12,Asthma,2012,69907231.1,0.107105377
+12,Autism,2011,10260014.35,0.005997002
+12,Autism,2012,10320010.58,0.006951308
+12,BiPolar,2011,6144492.597,0.004221908
+12,BiPolar,2012,6209223.417,0.004625624
+12,Chronic Mental Health,2011,2930631.331,0.002565795
+12,Chronic Mental Health,2012,3609959.592,0.003841405
+12,Chronic Stress,2011,2363050.475,0.001563604
+12,Chronic Stress,2012,3153271.036,0.002379868
+12,Conduct and Behavior,2011,17259365.7,0.021192195
+12,Conduct and Behavior,2012,19328640.27,0.025458963
+12,Conjunctivitis and Eye Diagnoses,2011,72524.2837,1.88321E-05
+12,Conjunctivitis and Eye Diagnoses,2012,64814.24873,1.07554E-05
+12,Dental Diagnoses,2011,21801593.24,0.07611037
+12,Dental Diagnoses,2012,23657867.78,0.099786092
+12,Depression,2011,11881724.91,0.011307919
+12,Depression,2012,12068196.28,0.01192798
+12,Depressive and Other Psychoses,2011,7916051.367,0.006353623
+12,Depressive and Other Psychoses,2012,9900681.557,0.009590658
+12,Developmental Language Disorder,2011,26864207.17,0.026324554
+12,Developmental Language Disorder,2012,27688039.9,0.026908923
+12,Developmental Speech and Learning,2011,32806958.85,0.039813294
+12,Developmental Speech and Learning,2012,32010258.04,0.039927003
+12,Diabetes2,2011,4132488.6,0.003708006
+12,Diabetes2,2012,4275929.68,0.003668684
+12,Epilepsy and Epilepsy Complex,2011,5525674.3,0.003378451
+12,Epilepsy and Epilepsy Complex,2012,5474923.001,0.003462628
+12,Major Mental Health,2011,47843401.71,0.024082735
+12,Major Mental Health,2012,51902420.97,0.028401348
+12,Psoriasis,2011,3207889.392,0.005422308
+12,Psoriasis,2012,3679954.973,0.005246015
+12,Schizophrenia,2011,11029394.97,0.010368036
+12,Schizophrenia,2012,10081832.78,0.010101728
+12,Social Problems,2011,2319330.323,0.003561248
+12,Social Problems,2012,2121220.527,0.003272657
+12,Upper Respiratory Infectons,2011,158836827.1,0.297651071
+12,Upper Respiratory Infectons,2012,156115104.5,0.303717287
+13,Acute Bronchitis and Bronchiolitis,2011,31371639.54,0.090844426
+13,Acute Bronchitis and Bronchiolitis,2012,35106532.34,0.09905333
+13,Acute Respiratory Diagnoses - Moderate,2011,21926016.9,0.049878181
+13,Acute Respiratory Diagnoses - Moderate,2012,23672119.5,0.051113404
+13,Acute Skin Diagnoses,2011,44946069.95,0.100254606
+13,Acute Skin Diagnoses,2012,39443227.82,0.088999476
+13,Acute Stress and Anxiety,2011,4850934.35,0.011917111
+13,Acute Stress and Anxiety,2012,5400068.62,0.013066157
+13,ADHD,2011,33139436.68,0.090162233
+13,ADHD,2012,37978139.98,0.095549139
+13,Allergies,2011,54472751.54,0.160428549
+13,Allergies,2012,52622382.91,0.154186298
+13,Asthma,2011,40063878.57,0.11013354
+13,Asthma,2012,43489476.03,0.115167934
+13,Autism,2011,3417208.429,0.006276071
+13,Autism,2012,3584776.122,0.006966872
+13,BiPolar,2011,3062084.098,0.006355842
+13,BiPolar,2012,3311969.123,0.006770778
+13,Chronic Mental Health,2011,1807038.673,0.003466911
+13,Chronic Mental Health,2012,2066736.739,0.003882797
+13,Chronic Stress,2011,1739209.813,0.003080683
+13,Chronic Stress,2012,2101200.573,0.003717707
+13,Conduct and Behavior,2011,13485606.02,0.030181578
+13,Conduct and Behavior,2012,15216881.87,0.032071031
+13,Conjunctivitis and Eye Diagnoses,2011,0,0
+13,Conjunctivitis and Eye Diagnoses,2012,0,0
+13,Dental Diagnoses,2011,10235017.73,0.025958412
+13,Dental Diagnoses,2012,9479771.543,0.023390086
+13,Depression,2011,8067073.82,0.017436977
+13,Depression,2012,8885351.805,0.018319503
+13,Depressive and Other Psychoses,2011,5008516.78,0.011322376
+13,Depressive and Other Psychoses,2012,5579390.082,0.012631414
+13,Developmental Language Disorder,2011,8278135.717,0.016763548
+13,Developmental Language Disorder,2012,7419103.477,0.01508349
+13,Developmental Speech and Learning,2011,11665512.74,0.027962204
+13,Developmental Speech and Learning,2012,10956346.83,0.025790171
+13,Diabetes2,2011,1698561.285,0.003529162
+13,Diabetes2,2012,1782120.579,0.003630871
+13,Epilepsy and Epilepsy Complex,2011,1995561.426,0.003248544
+13,Epilepsy and Epilepsy Complex,2012,1847345.133,0.002830952
+13,Major Mental Health,2011,31668570.6,0.035294387
+13,Major Mental Health,2012,35648643.02,0.038323441
+13,Psoriasis,2011,1190521.072,0.003131964
+13,Psoriasis,2012,1257425.284,0.00301245
+13,Schizophrenia,2011,6347568.867,0.015019592
+13,Schizophrenia,2012,6071350.045,0.014388528
+13,Social Problems,2011,9357588.941,0.0145388
+13,Social Problems,2012,10900452.03,0.015425905
+13,Upper Respiratory Infectons,2011,133167698.3,0.331571782
+13,Upper Respiratory Infectons,2012,134767268.6,0.326182121
+15,Acute Bronchitis and Bronchiolitis,2011,2529804.122,0.048709965
+15,Acute Bronchitis and Bronchiolitis,2012,2807844.846,0.046040839
+15,Acute Respiratory Diagnoses - Moderate,2011,2265378.452,0.043304428
+15,Acute Respiratory Diagnoses - Moderate,2012,3582471.085,0.061013822
+15,Acute Skin Diagnoses,2011,3713264.365,0.068062323
+15,Acute Skin Diagnoses,2012,4089623.09,0.063425833
+15,Acute Stress and Anxiety,2011,286856.2734,0.005061658
+15,Acute Stress and Anxiety,2012,349494.4022,0.005147313
+15,ADHD,2011,1380822.988,0.017641204
+15,ADHD,2012,1916627.39,0.020063375
+15,Allergies,2011,2604714.304,0.062471481
+15,Allergies,2012,2899929.141,0.056746552
+15,Asthma,2011,4442424.865,0.092218992
+15,Asthma,2012,5754949.607,0.102617882
+15,Autism,2011,418105.2946,0.00168118
+15,Autism,2012,572474.5212,0.001863123
+15,BiPolar,2011,165422.7793,0.00114564
+15,BiPolar,2012,182014.2219,0.001244489
+15,Chronic Mental Health,2011,415589.2721,0.005554149
+15,Chronic Mental Health,2012,484320.522,0.004589974
+15,Chronic Stress,2011,78475.87481,0.001866515
+15,Chronic Stress,2012,138648.3298,0.001973826
+15,Conduct and Behavior,2011,1115025.515,0.010365138
+15,Conduct and Behavior,2012,1120558.31,0.009789046
+15,Conjunctivitis and Eye Diagnoses,2011,0,0
+15,Conjunctivitis and Eye Diagnoses,2012,0,0
+15,Dental Diagnoses,2011,869627.659,0.010515095
+15,Dental Diagnoses,2012,1046777.258,0.010645457
+15,Depression,2011,465665.355,0.00545789
+15,Depression,2012,699711.08,0.006323898
+15,Depressive and Other Psychoses,2011,367158.1578,0.003952113
+15,Depressive and Other Psychoses,2012,443332.9127,0.004031968
+15,Developmental Language Disorder,2011,207406.5627,0.003194907
+15,Developmental Language Disorder,2012,229426.27,0.003130701
+15,Developmental Speech and Learning,2011,471499.4143,0.007687155
+15,Developmental Speech and Learning,2012,390403.6616,0.006214173
+15,Diabetes2,2011,139916.8131,0.002379693
+15,Diabetes2,2012,137224.7562,0.002532702
+15,Epilepsy and Epilepsy Complex,2011,124115.9014,0.001213829
+15,Epilepsy and Epilepsy Complex,2012,104036.4771,0.001124154
+15,Major Mental Health,2011,2799531.201,0.013674769
+15,Major Mental Health,2012,3148610.29,0.01368768
+15,Psoriasis,2011,176869.1569,0.003857665
+15,Psoriasis,2012,307714.6162,0.005728757
+15,Schizophrenia,2011,240123.4894,0.001550024
+15,Schizophrenia,2012,297947.6863,0.00176354
+15,Social Problems,2011,204298.1442,0.003182528
+15,Social Problems,2012,229932.7073,0.00342993
+15,Upper Respiratory Infectons,2011,13055015.4,0.232612729
+15,Upper Respiratory Infectons,2012,14881997.03,0.226856804
+17,Acute Bronchitis and Bronchiolitis,2011,28997045.79,0.088221223
+17,Acute Bronchitis and Bronchiolitis,2012,27046006.23,0.082854847
+17,Acute Respiratory Diagnoses - Moderate,2011,25825448.35,0.033852099
+17,Acute Respiratory Diagnoses - Moderate,2012,25654787.69,0.032109034
+17,Acute Skin Diagnoses,2011,35167532.5,0.088398968
+17,Acute Skin Diagnoses,2012,36340232.42,0.090279587
+17,Acute Stress and Anxiety,2011,10863373.7,0.010613633
+17,Acute Stress and Anxiety,2012,12695780.76,0.014087347
+17,ADHD,2011,36922093.82,0.069807598
+17,ADHD,2012,33729567.31,0.070969326
+17,Allergies,2011,31601074.34,0.090606783
+17,Allergies,2012,29443695.35,0.087266015
+17,Asthma,2011,50541171.79,0.08696592
+17,Asthma,2012,48533379.32,0.084923384
+17,Autism,2011,7562063.818,0.005713878
+17,Autism,2012,7937912.745,0.006513741
+17,BiPolar,2011,9304050.571,0.007959288
+17,BiPolar,2012,7508194.541,0.007182039
+17,Chronic Mental Health,2011,6661949.626,0.005441548
+17,Chronic Mental Health,2012,6269301.932,0.005672655
+17,Chronic Stress,2011,3114471.835,0.002481836
+17,Chronic Stress,2012,3014691.185,0.002884128
+17,Conduct and Behavior,2011,13971287,0.017727206
+17,Conduct and Behavior,2012,12807382.52,0.018412216
+17,Conjunctivitis and Eye Diagnoses,2011,793.0651261,0
+17,Conjunctivitis and Eye Diagnoses,2012,313.48,0
+17,Dental Diagnoses,2011,5808390.12,0.013828424
+17,Dental Diagnoses,2012,5772187.041,0.015845248
+17,Depression,2011,16477618.82,0.016500895
+17,Depression,2012,15828336.79,0.016489692
+17,Depressive and Other Psychoses,2011,15257103.53,0.014327761
+17,Depressive and Other Psychoses,2012,14643127.39,0.014957901
+17,Developmental Language Disorder,2011,17915233.4,0.031478698
+17,Developmental Language Disorder,2012,18368995.2,0.033836477
+17,Developmental Speech and Learning,2011,28090296.33,0.052923858
+17,Developmental Speech and Learning,2012,25850490.89,0.047444399
+17,Diabetes2,2011,4540576.503,0.004330473
+17,Diabetes2,2012,4463363.357,0.004235691
+17,Epilepsy and Epilepsy Complex,2011,3185039.301,0.002055902
+17,Epilepsy and Epilepsy Complex,2012,2827953.753,0.001901558
+17,Major Mental Health,2011,54462279.83,0.03143037
+17,Major Mental Health,2012,52826640.94,0.033821067
+17,Psoriasis,2011,1858143.919,0.003127118
+17,Psoriasis,2012,1900883.506,0.003573986
+17,Schizophrenia,2011,12702432.39,0.012228083
+17,Schizophrenia,2012,12621504.6,0.01294808
+17,Social Problems,2011,14154871.82,0.045532129
+17,Social Problems,2012,14987115.61,0.042006776
+17,Upper Respiratory Infectons,2011,107061011.8,0.307017044
+17,Upper Respiratory Infectons,2012,99343514.76,0.294175291
+18,Acute Bronchitis and Bronchiolitis,2011,16009492.75,0.102158806
+18,Acute Bronchitis and Bronchiolitis,2012,15482588.99,0.094719265
+18,Acute Respiratory Diagnoses - Moderate,2011,10026570.33,0.044273227
+18,Acute Respiratory Diagnoses - Moderate,2012,10652426.74,0.043561188
+18,Acute Skin Diagnoses,2011,21414221.93,0.106400233
+18,Acute Skin Diagnoses,2012,23794584.26,0.112298117
+18,Acute Stress and Anxiety,2011,6226622.245,0.019603204
+18,Acute Stress and Anxiety,2012,6928375.345,0.0220081
+18,ADHD,2011,34676981.9,0.106497399
+18,ADHD,2012,38020117.79,0.110651142
+18,Allergies,2011,18582422.19,0.114503598
+18,Allergies,2012,20033016.69,0.114658829
+18,Asthma,2011,22655684.98,0.101164487
+18,Asthma,2012,23614374.2,0.099440005
+18,Autism,2011,2792542.714,0.006090129
+18,Autism,2012,2988392.8,0.006944266
+18,BiPolar,2011,4774470.395,0.008594523
+18,BiPolar,2012,4058521.784,0.007832945
+18,Chronic Mental Health,2011,4043701.57,0.009980307
+18,Chronic Mental Health,2012,4311341.251,0.011585016
+18,Chronic Stress,2011,3659353.124,0.008251356
+18,Chronic Stress,2012,3929955.11,0.009309845
+18,Conduct and Behavior,2011,15592717.68,0.050549902
+18,Conduct and Behavior,2012,17000183.16,0.052419717
+18,Conjunctivitis and Eye Diagnoses,2011,0,0
+18,Conjunctivitis and Eye Diagnoses,2012,0,0
+18,Dental Diagnoses,2011,4982666.592,0.019118821
+18,Dental Diagnoses,2012,5675883.057,0.019991553
+18,Depression,2011,11721221.57,0.0294633
+18,Depression,2012,11967458.32,0.030516062
+18,Depressive and Other Psychoses,2011,8145310.421,0.02252571
+18,Depressive and Other Psychoses,2012,8257616.38,0.022477203
+18,Developmental Language Disorder,2011,3393252.414,0.012846685
+18,Developmental Language Disorder,2012,4144559.722,0.01498871
+18,Developmental Speech and Learning,2011,6774228.751,0.031241507
+18,Developmental Speech and Learning,2012,7217546.992,0.02994922
+18,Diabetes2,2011,1696182.394,0.004531289
+18,Diabetes2,2012,1820436.826,0.004538118
+18,Epilepsy and Epilepsy Complex,2011,1560955.553,0.003096473
+18,Epilepsy and Epilepsy Complex,2012,1496080.225,0.002869936
+18,Major Mental Health,2011,44197225.58,0.065343364
+18,Major Mental Health,2012,46739721.76,0.06727658
+18,Psoriasis,2011,988522.0583,0.004653822
+18,Psoriasis,2012,1077468.746,0.004673845
+18,Schizophrenia,2011,9303049.562,0.01985926
+18,Schizophrenia,2012,9204690.235,0.019437408
+18,Social Problems,2011,3747045.731,0.014543403
+18,Social Problems,2012,2866780.416,0.010483341
+18,Upper Respiratory Infectons,2011,60196659.34,0.332120804
+18,Upper Respiratory Infectons,2012,58898025.67,0.310311079
+19,Acute Bronchitis and Bronchiolitis,2011,9333625.836,0.121412637
+19,Acute Bronchitis and Bronchiolitis,2012,9450373.356,0.114684955
+19,Acute Respiratory Diagnoses - Moderate,2011,4637780.231,0.026210089
+19,Acute Respiratory Diagnoses - Moderate,2012,4754675.693,0.025595753
+19,Acute Skin Diagnoses,2011,9063152.208,0.100097573
+19,Acute Skin Diagnoses,2012,9846127.685,0.101404999
+19,Acute Stress and Anxiety,2011,5344299.146,0.031606036
+19,Acute Stress and Anxiety,2012,5826881.527,0.034006849
+19,ADHD,2011,22940715.54,0.117803346
+19,ADHD,2012,24164454.45,0.120781839
+19,Allergies,2011,7788438.853,0.093398427
+19,Allergies,2012,8375787.773,0.09303273
+19,Asthma,2011,10312955.66,0.079006967
+19,Asthma,2012,10947795.95,0.078522501
+19,Autism,2011,4647650.524,0.005893644
+19,Autism,2012,5415235.507,0.006739268
+19,BiPolar,2011,1900400.323,0.006649138
+19,BiPolar,2012,1475926.7,0.005896902
+19,Chronic Mental Health,2011,1956778.142,0.010495095
+19,Chronic Mental Health,2012,2010636.104,0.011393371
+19,Chronic Stress,2011,2603919.692,0.011170817
+19,Chronic Stress,2012,2713605.718,0.012827637
+19,Conduct and Behavior,2011,11025834.01,0.068635577
+19,Conduct and Behavior,2012,9678782.291,0.06693101
+19,Conjunctivitis and Eye Diagnoses,2011,0,0
+19,Conjunctivitis and Eye Diagnoses,2012,0,0
+19,Dental Diagnoses,2011,4090355.754,0.036164563
+19,Dental Diagnoses,2012,4719478.574,0.042790083
+19,Depression,2011,8595594.185,0.040706766
+19,Depression,2012,8154520.031,0.042863516
+19,Depressive and Other Psychoses,2011,4295916.391,0.022881856
+19,Depressive and Other Psychoses,2012,4093177.405,0.02590136
+19,Developmental Language Disorder,2011,3473010.245,0.007969878
+19,Developmental Language Disorder,2012,3585617.15,0.00880728
+19,Developmental Speech and Learning,2011,1845583.904,0.008861869
+19,Developmental Speech and Learning,2012,2266496.94,0.009800809
+19,Diabetes2,2011,831598.601,0.003397345
+19,Diabetes2,2012,904140.0571,0.003527999
+19,Epilepsy and Epilepsy Complex,2011,1348539.371,0.002568606
+19,Epilepsy and Epilepsy Complex,2012,1426392.287,0.002526093
+19,Major Mental Health,2011,28279998.75,0.078117018
+19,Major Mental Health,2012,25705133.06,0.079157102
+19,Psoriasis,2011,480176.3594,0.003210795
+19,Psoriasis,2012,529730.6591,0.003132207
+19,Schizophrenia,2011,6223688.37,0.022141944
+19,Schizophrenia,2012,5859163.833,0.022508077
+19,Social Problems,2011,827514.8437,0.008490031
+19,Social Problems,2012,976924.0792,0.00930477
+19,Upper Respiratory Infectons,2011,31964110.72,0.377048389
+19,Upper Respiratory Infectons,2012,32718350.08,0.350945567
+20,Acute Bronchitis and Bronchiolitis,2011,8475998.605,0.118962893
+20,Acute Respiratory Diagnoses - Moderate,2011,4285466.376,0.043707301
+20,Acute Skin Diagnoses,2011,8328483.767,0.090291843
+20,Acute Stress and Anxiety,2011,2317424.857,0.021945429
+20,ADHD,2011,11992133.87,0.092783794
+20,Allergies,2011,8136022.939,0.118054176
+20,Asthma,2011,8445994.294,0.09328408
+20,Autism,2011,1065265.245,0.005145985
+20,BiPolar,2011,1731410.254,0.009768563
+20,Chronic Mental Health,2011,1443723.682,0.012219352
+20,Chronic Stress,2011,1368289.948,0.010619024
+20,Conduct and Behavior,2011,6164005.569,0.057052958
+20,Conjunctivitis and Eye Diagnoses,2011,0,0
+20,Dental Diagnoses,2011,3162731.5,0.029666042
+20,Depression,2011,4336059.208,0.032715953
+20,Depressive and Other Psychoses,2011,3786482.093,0.027135069
+20,Developmental Language Disorder,2011,340088.7315,0.003591417
+20,Developmental Speech and Learning,2011,652689.7143,0.007587003
+20,Diabetes2,2011,628524.6435,0.006732761
+20,Epilepsy and Epilepsy Complex,2011,535855.306,0.003040261
+20,Major Mental Health,2011,19200427.27,0.076427573
+20,Psoriasis,2011,424469.4065,0.004770153
+20,Schizophrenia,2011,3753550.698,0.025192071
+20,Social Problems,2011,2638597.138,0.030336803
+20,Upper Respiratory Infectons,2011,28143141.25,0.332407102
+21,Acute Bronchitis and Bronchiolitis,2011,20327618.84,0.159718622
+21,Acute Bronchitis and Bronchiolitis,2012,19487851.37,0.146902775
+21,Acute Respiratory Diagnoses - Moderate,2011,10556701.07,0.058028895
+21,Acute Respiratory Diagnoses - Moderate,2012,8453481.003,0.055779109
+21,Acute Skin Diagnoses,2011,26686452.76,0.150508357
+21,Acute Skin Diagnoses,2012,25816434.53,0.133959657
+21,Acute Stress and Anxiety,2011,9276633.468,0.050836153
+21,Acute Stress and Anxiety,2012,6964271.878,0.031455467
+21,ADHD,2011,37381910.63,0.116384265
+21,ADHD,2012,34776630.08,0.117251161
+21,Allergies,2011,36641780,0.229024053
+21,Allergies,2012,35211689.26,0.212695189
+21,Asthma,2011,25464572.45,0.13370735
+21,Asthma,2012,21894116.27,0.126235645
+21,Autism,2011,5581118.804,0.006582785
+21,Autism,2012,7663819.045,0.007648027
+21,BiPolar,2011,6065935.779,0.010694097
+21,BiPolar,2012,3689078.548,0.008634249
+21,Chronic Mental Health,2011,4046363.388,0.008443449
+21,Chronic Mental Health,2012,2914968.292,0.007765459
+21,Chronic Stress,2011,2135905.751,0.007519458
+21,Chronic Stress,2012,1806535.616,0.006933545
+21,Conduct and Behavior,2011,27969164.68,0.065297899
+21,Conduct and Behavior,2012,25132762.71,0.064558491
+21,Conjunctivitis and Eye Diagnoses,2011,0,0
+21,Conjunctivitis and Eye Diagnoses,2012,0,0
+21,Dental Diagnoses,2011,14417294.84,0.09227697
+21,Dental Diagnoses,2012,7614254.818,0.044107733
+21,Depression,2011,12726939.33,0.030338586
+21,Depression,2012,10319579.18,0.03037525
+21,Depressive and Other Psychoses,2011,12579182.3,0.02498575
+21,Depressive and Other Psychoses,2012,10231044.22,0.026804572
+21,Developmental Language Disorder,2011,10006278.58,0.030021929
+21,Developmental Language Disorder,2012,11525709.07,0.028152774
+21,Developmental Speech and Learning,2011,8932421.91,0.040927657
+21,Developmental Speech and Learning,2012,11946120.89,0.047943566
+21,Diabetes2,2011,2108212.857,0.006792427
+21,Diabetes2,2012,1410892.905,0.006207515
+21,Epilepsy and Epilepsy Complex,2011,1037198.107,0.003314584
+21,Epilepsy and Epilepsy Complex,2012,773226.7391,0.003118246
+21,Major Mental Health,2011,43857641.33,0.05983569
+21,Major Mental Health,2012,35382289.15,0.063111094
+21,Psoriasis,2011,1677305.213,0.008834075
+21,Psoriasis,2012,1181118.585,0.006243801
+21,Schizophrenia,2011,9881008.271,0.021428908
+21,Schizophrenia,2012,8179889.079,0.023566946
+21,Social Problems,2011,7543320.424,0.027253574
+21,Social Problems,2012,7096022.974,0.026413811
+21,Upper Respiratory Infectons,2011,79570496.16,0.489745278
+21,Upper Respiratory Infectons,2012,82431557.07,0.442309794
+22,Acute Bronchitis and Bronchiolitis,2011,28842688.39,0.107367637
+22,Acute Bronchitis and Bronchiolitis,2012,21273253.46,0.107766507
+22,Acute Respiratory Diagnoses - Moderate,2011,16420146.33,0.045051184
+22,Acute Respiratory Diagnoses - Moderate,2012,12281634.72,0.044604115
+22,Acute Skin Diagnoses,2011,34070456.29,0.13013309
+22,Acute Skin Diagnoses,2012,25525431.98,0.122485506
+22,Acute Stress and Anxiety,2011,5098957.883,0.014753212
+22,Acute Stress and Anxiety,2012,3973007.491,0.01711072
+22,ADHD,2011,52637891.17,0.117035487
+22,ADHD,2012,34892018.33,0.128404122
+22,Allergies,2011,58272645.97,0.207256068
+22,Allergies,2012,41945745.62,0.203097755
+22,Asthma,2011,46320530.32,0.120316261
+22,Asthma,2012,29255520.35,0.111885282
+22,Autism,2011,3148535.255,0.004654072
+22,Autism,2012,3445904.205,0.005059192
+22,BiPolar,2011,3548783.234,0.006493621
+22,BiPolar,2012,1928500.062,0.006535218
+22,Chronic Mental Health,2011,678239.1641,0.001670731
+22,Chronic Mental Health,2012,602503.675,0.002455713
+22,Chronic Stress,2011,2013459.773,0.003543347
+22,Chronic Stress,2012,1587438.392,0.003941037
+22,Conduct and Behavior,2011,11465218.48,0.030148748
+22,Conduct and Behavior,2012,7518579.36,0.034592928
+22,Conjunctivitis and Eye Diagnoses,2011,321.75,0
+22,Conjunctivitis and Eye Diagnoses,2012,0,0
+22,Dental Diagnoses,2011,9173505.698,0.031185739
+22,Dental Diagnoses,2012,6543856.478,0.026722379
+22,Depression,2011,8971055.143,0.018176834
+22,Depression,2012,5786699.311,0.020682722
+22,Depressive and Other Psychoses,2011,5450549.765,0.01130269
+22,Depressive and Other Psychoses,2012,3323819.849,0.01390426
+22,Developmental Language Disorder,2011,5070574.672,0.017573286
+22,Developmental Language Disorder,2012,3678318.511,0.013236316
+22,Developmental Speech and Learning,2011,17021539.9,0.055293335
+22,Developmental Speech and Learning,2012,15529027.21,0.055270056
+22,Diabetes2,2011,2943723.463,0.004236872
+22,Diabetes2,2012,1800874.995,0.004053143
+22,Epilepsy and Epilepsy Complex,2011,2596675.777,0.003395204
+22,Epilepsy and Epilepsy Complex,2012,1728538.013,0.002805604
+22,Major Mental Health,2011,29185339.16,0.033979146
+22,Major Mental Health,2012,21055013.57,0.04099084
+22,Psoriasis,2011,5433136.281,0.017196402
+22,Psoriasis,2012,3456951.352,0.014835632
+22,Schizophrenia,2011,7337392.65,0.015669258
+22,Schizophrenia,2012,5081705.372,0.016659497
+22,Social Problems,2011,2721379.501,0.008014082
+22,Social Problems,2012,2117200.325,0.010251967
+22,Upper Respiratory Infectons,2011,108501174.9,0.429348794
+22,Upper Respiratory Infectons,2012,79671350.71,0.395131311
+23,Acute Bronchitis and Bronchiolitis,2011,2574657.745,0.057233281
+23,Acute Bronchitis and Bronchiolitis,2012,2353846.729,0.062179397
+23,Acute Respiratory Diagnoses - Moderate,2011,2225040.774,0.032458959
+23,Acute Respiratory Diagnoses - Moderate,2012,1902564.33,0.035106261
+23,Acute Skin Diagnoses,2011,4384549.966,0.077603249
+23,Acute Skin Diagnoses,2012,4145371.954,0.090870259
+23,Acute Stress and Anxiety,2011,6750387.253,0.058898055
+23,Acute Stress and Anxiety,2012,6811763.131,0.069783361
+23,ADHD,2011,19663318.22,0.1236615
+23,ADHD,2012,14921323.72,0.130499123
+23,Allergies,2011,4030098.583,0.071227909
+23,Allergies,2012,3450026.688,0.077531976
+23,Asthma,2011,8990337.485,0.098155652
+23,Asthma,2012,5719798.251,0.096811769
+23,Autism,2011,6413825.951,0.017817448
+23,Autism,2012,6623001.64,0.020680784
+23,BiPolar,2011,1799261.067,0.008421808
+23,BiPolar,2012,1372824.999,0.007295404
+23,Chronic Mental Health,2011,4203345.521,0.025988031
+23,Chronic Mental Health,2012,4336685.241,0.027780433
+23,Chronic Stress,2011,3548034.697,0.028061769
+23,Chronic Stress,2012,3644076.751,0.034053057
+23,Conduct and Behavior,2011,7843319.701,0.050961575
+23,Conduct and Behavior,2012,7357598.252,0.055092213
+23,Conjunctivitis and Eye Diagnoses,2011,0,0
+23,Conjunctivitis and Eye Diagnoses,2012,0,0
+23,Dental Diagnoses,2011,3734157.975,0.087870472
+23,Dental Diagnoses,2012,3937941.608,0.102090266
+23,Depression,2011,8616425.127,0.056183255
+23,Depression,2012,7623765.991,0.059148733
+23,Depressive and Other Psychoses,2011,6849232.606,0.042901089
+23,Depressive and Other Psychoses,2012,6163998.592,0.04460052
+23,Developmental Language Disorder,2011,3084791.108,0.027914703
+23,Developmental Language Disorder,2012,3498893.723,0.031837914
+23,Developmental Speech and Learning,2011,2419669.717,0.024944051
+23,Developmental Speech and Learning,2012,2401758.203,0.028486274
+23,Diabetes2,2011,1291561.443,0.006026873
+23,Diabetes2,2012,860200.9637,0.005644636
+23,Epilepsy and Epilepsy Complex,2011,425385.9354,0.002321895
+23,Epilepsy and Epilepsy Complex,2012,409262.399,0.002826997
+23,Major Mental Health,2011,24598702.79,0.079041275
+23,Major Mental Health,2012,22950765.62,0.083298947
+23,Psoriasis,2011,279063.4281,0.003448421
+23,Psoriasis,2012,193600.9034,0.004157377
+23,Schizophrenia,2011,4505424.33,0.019438525
+23,Schizophrenia,2012,3896582.028,0.017452019
+23,Social Problems,2011,7081879.997,0.048636565
+23,Social Problems,2012,3629508.038,0.026635749
+23,Upper Respiratory Infectons,2011,11049424.01,0.239096846
+23,Upper Respiratory Infectons,2012,10168498.53,0.259897235
+24,Acute Bronchitis and Bronchiolitis,2011,13130392.52,0.081214473
+24,Acute Bronchitis and Bronchiolitis,2012,13317066.35,0.079274628
+24,Acute Respiratory Diagnoses - Moderate,2011,12941319.54,0.052004883
+24,Acute Respiratory Diagnoses - Moderate,2012,13455221.21,0.052527266
+24,Acute Skin Diagnoses,2011,25836304.8,0.124791288
+24,Acute Skin Diagnoses,2012,27077634.65,0.123857432
+24,Acute Stress and Anxiety,2011,5944271.971,0.015445452
+24,Acute Stress and Anxiety,2012,7009820.352,0.01692187
+24,ADHD,2011,36422523.63,0.091285892
+24,ADHD,2012,41253805.15,0.093316497
+24,Allergies,2011,24696798.64,0.139898537
+24,Allergies,2012,26871584,0.1452376
+24,Asthma,2011,30469604.53,0.134200267
+24,Asthma,2012,32117587.94,0.135998451
+24,Autism,2011,6784710.695,0.00488642
+24,Autism,2012,6472077.942,0.005040942
+24,BiPolar,2011,4197550.034,0.008650326
+24,BiPolar,2012,6138551.451,0.007854472
+24,Chronic Mental Health,2011,1660835.655,0.003748507
+24,Chronic Mental Health,2012,2013390.334,0.003940549
+24,Chronic Stress,2011,2904175.872,0.005613051
+24,Chronic Stress,2012,3382227.532,0.006746408
+24,Conduct and Behavior,2011,12367883.42,0.034553198
+24,Conduct and Behavior,2012,13896947.6,0.036222718
+24,Conjunctivitis and Eye Diagnoses,2011,0,0
+24,Conjunctivitis and Eye Diagnoses,2012,0,0
+24,Dental Diagnoses,2011,5854224.861,0.023855906
+24,Dental Diagnoses,2012,6228521.876,0.023791083
+24,Depression,2011,10989412.32,0.023648952
+24,Depression,2012,13612403.93,0.02382344
+24,Depressive and Other Psychoses,2011,10079943.52,0.022571874
+24,Depressive and Other Psychoses,2012,13755325.98,0.023430425
+24,Developmental Language Disorder,2011,6897916.169,0.027754402
+24,Developmental Language Disorder,2012,7279094.361,0.026715707
+24,Developmental Speech and Learning,2011,34452716.93,0.081096858
+24,Developmental Speech and Learning,2012,38128790.6,0.08843182
+24,Diabetes2,2011,973788.9046,0.003621547
+24,Diabetes2,2012,1226358.344,0.003420083
+24,Epilepsy and Epilepsy Complex,2011,1353491.552,0.002231465
+24,Epilepsy and Epilepsy Complex,2012,1323037.178,0.002039526
+24,Major Mental Health,2011,39245018.18,0.04679336
+24,Major Mental Health,2012,47148842.73,0.046995219
+24,Psoriasis,2011,731848.6548,0.00338427
+24,Psoriasis,2012,849258.8149,0.003926727
+24,Schizophrenia,2011,7412296.969,0.01527195
+24,Schizophrenia,2012,9765289.742,0.013782858
+24,Social Problems,2011,6733744.709,0.011513986
+24,Social Problems,2012,8121574.807,0.014678463
+24,Upper Respiratory Infectons,2011,63989802.5,0.343120236
+24,Upper Respiratory Infectons,2012,65485916.23,0.33674459
+25,Acute Bronchitis and Bronchiolitis,2011,10160503.91,0.033927413
+25,Acute Bronchitis and Bronchiolitis,2012,11928204.94,0.046035702
+25,Acute Respiratory Diagnoses - Moderate,2011,20070102.83,0.048899517
+25,Acute Respiratory Diagnoses - Moderate,2012,17088008.32,0.051428419
+25,Acute Skin Diagnoses,2011,23547321.89,0.066658682
+25,Acute Skin Diagnoses,2012,35573871.08,0.107871773
+25,Acute Stress and Anxiety,2011,7600482.179,0.021211343
+25,Acute Stress and Anxiety,2012,9943012.138,0.034056998
+25,ADHD,2011,27139747.78,0.074371818
+25,ADHD,2012,32340356.21,0.096700808
+25,Allergies,2011,16138520.49,0.051448146
+25,Allergies,2012,23574005.23,0.081423772
+25,Asthma,2011,30690798.86,0.082070501
+25,Asthma,2012,37541962.91,0.113138133
+25,Autism,2011,5844076.446,0.008949361
+25,Autism,2012,6934529.576,0.011150095
+25,BiPolar,2011,2933698.713,0.008916079
+25,BiPolar,2012,3483433.8,0.009836976
+25,Chronic Mental Health,2011,4169781.582,0.016131023
+25,Chronic Mental Health,2012,6031298.773,0.023268877
+25,Chronic Stress,2011,2017328.399,0.005623133
+25,Chronic Stress,2012,4388362.002,0.015278496
+25,Conduct and Behavior,2011,9988827.885,0.032507021
+25,Conduct and Behavior,2012,13241380.97,0.05023154
+25,Conjunctivitis and Eye Diagnoses,2011,0,0
+25,Conjunctivitis and Eye Diagnoses,2012,0,0
+25,Dental Diagnoses,2011,7825184.658,0.016024248
+25,Dental Diagnoses,2012,8607165.9,0.022680887
+25,Depression,2011,8069339.034,0.024681904
+25,Depression,2012,11445510.25,0.036981714
+25,Depressive and Other Psychoses,2011,7018891.781,0.023231856
+25,Depressive and Other Psychoses,2012,9191808.953,0.033013119
+25,Developmental Language Disorder,2011,3895536.013,0.009510927
+25,Developmental Language Disorder,2012,4880586.219,0.014461718
+25,Developmental Speech and Learning,2011,6995572.358,0.01726167
+25,Developmental Speech and Learning,2012,7257201.069,0.021835452
+25,Diabetes2,2011,1643528.06,0.003408205
+25,Diabetes2,2012,1666409.275,0.003793911
+25,Epilepsy and Epilepsy Complex,2011,1512019.065,0.002206659
+25,Epilepsy and Epilepsy Complex,2012,2089679.402,0.002871047
+25,Major Mental Health,2011,31840298.71,0.054279518
+25,Major Mental Health,2012,40180662.55,0.073841719
+25,Psoriasis,2011,1078823.725,0.002933705
+25,Psoriasis,2012,1441433.964,0.004886894
+25,Schizophrenia,2011,3923416.874,0.011861093
+25,Schizophrenia,2012,5161005.18,0.013022102
+25,Social Problems,2011,1979463.486,0.006744454
+25,Social Problems,2012,2913298.584,0.010644847
+25,Upper Respiratory Infectons,2011,72222632.87,0.20594721
+25,Upper Respiratory Infectons,2012,91971944.77,0.295410255
+26,Acute Bronchitis and Bronchiolitis,2011,33310900.24,0.094864535
+26,Acute Bronchitis and Bronchiolitis,2012,28750908.75,0.088405232
+26,Acute Respiratory Diagnoses - Moderate,2011,18410661.99,0.04239594
+26,Acute Respiratory Diagnoses - Moderate,2012,17691349.59,0.042748209
+26,Acute Skin Diagnoses,2011,47352659.53,0.114041815
+26,Acute Skin Diagnoses,2012,45453405.77,0.117237326
+26,Acute Stress and Anxiety,2011,7964439.092,0.018714089
+26,Acute Stress and Anxiety,2012,7893135.645,0.020698896
+26,ADHD,2011,57344689.51,0.087549606
+26,ADHD,2012,56942996.31,0.090545979
+26,Allergies,2011,40836149.75,0.120318588
+26,Allergies,2012,38235049.39,0.121886647
+26,Asthma,2011,40918351.99,0.104983778
+26,Asthma,2012,39960119.91,0.107901825
+26,Autism,2011,16391946.42,0.007631525
+26,Autism,2012,14915431.25,0.008511648
+26,BiPolar,2011,5451901.102,0.01029955
+26,BiPolar,2012,4756395.927,0.009262627
+26,Chronic Mental Health,2011,2113258.663,0.006606513
+26,Chronic Mental Health,2012,2382065.75,0.007614328
+26,Chronic Stress,2011,2759290.335,0.00625603
+26,Chronic Stress,2012,2823461.566,0.007406807
+26,Conduct and Behavior,2011,14793988.58,0.029658907
+26,Conduct and Behavior,2012,14191269.23,0.03153945
+26,Conjunctivitis and Eye Diagnoses,2011,0,0
+26,Conjunctivitis and Eye Diagnoses,2012,0,0
+26,Dental Diagnoses,2011,9511472.287,0.020533083
+26,Dental Diagnoses,2012,18093932.92,0.042014899
+26,Depression,2011,12753528.14,0.025848339
+26,Depression,2012,12457403.51,0.02718856
+26,Depressive and Other Psychoses,2011,9801723.101,0.021728466
+26,Depressive and Other Psychoses,2012,10226730.13,0.023022153
+26,Developmental Language Disorder,2011,37951957.02,0.024618871
+26,Developmental Language Disorder,2012,28182020.6,0.025032057
+26,Developmental Speech and Learning,2011,32076405.74,0.024020394
+26,Developmental Speech and Learning,2012,22802934.05,0.022110563
+26,Diabetes2,2011,3872422.336,0.007002528
+26,Diabetes2,2012,3617076.815,0.006342862
+26,Epilepsy and Epilepsy Complex,2011,2438650.855,0.002693381
+26,Epilepsy and Epilepsy Complex,2012,2254989.374,0.002643129
+26,Major Mental Health,2011,44652734.1,0.042638177
+26,Major Mental Health,2012,45474596.32,0.046121968
+26,Psoriasis,2011,1332458.704,0.003293079
+26,Psoriasis,2012,1299816.44,0.002946714
+26,Schizophrenia,2011,12802088.86,0.018232335
+26,Schizophrenia,2012,11292210.52,0.017842607
+26,Social Problems,2011,1973642.538,0.006633097
+26,Social Problems,2012,2410742.096,0.008078514
+26,Upper Respiratory Infectons,2011,127791407.2,0.325804445
+26,Upper Respiratory Infectons,2012,113380544.8,0.309259227
+27,Acute Bronchitis and Bronchiolitis,2011,15003312.77,0.074218224
+27,Acute Bronchitis and Bronchiolitis,2012,12967489.71,0.068966344
+27,Acute Respiratory Diagnoses - Moderate,2011,10238212.81,0.038840143
+27,Acute Respiratory Diagnoses - Moderate,2012,9845403.779,0.038427223
+27,Acute Skin Diagnoses,2011,28417908.47,0.105608684
+27,Acute Skin Diagnoses,2012,26620949.32,0.107819673
+27,Acute Stress and Anxiety,2011,11759615.7,0.041189048
+27,Acute Stress and Anxiety,2012,12104472.78,0.04567487
+27,ADHD,2011,30479205.7,0.091325886
+27,ADHD,2012,29601448.84,0.094405609
+27,Allergies,2011,15910142.72,0.071454841
+27,Allergies,2012,15158651.49,0.076978653
+27,Asthma,2011,23539978.05,0.089313998
+27,Asthma,2012,21322719.03,0.08975225
+27,Autism,2011,16719479.26,0.01213789
+27,Autism,2012,17282389.95,0.013060966
+27,BiPolar,2011,2381849.631,0.00487381
+27,BiPolar,2012,2246754.843,0.004422662
+27,Chronic Mental Health,2011,4867108.858,0.013076887
+27,Chronic Mental Health,2012,4973071.244,0.014730161
+27,Chronic Stress,2011,5802721.623,0.017016031
+27,Chronic Stress,2012,6283215.978,0.022440275
+27,Conduct and Behavior,2011,14100526.98,0.046627604
+27,Conduct and Behavior,2012,14155273.52,0.04828897
+27,Conjunctivitis and Eye Diagnoses,2011,0,0
+27,Conjunctivitis and Eye Diagnoses,2012,0,0
+27,Dental Diagnoses,2011,8682193.995,0.029598996
+27,Dental Diagnoses,2012,9180517.665,0.032593746
+27,Depression,2011,12778748.61,0.04065258
+27,Depression,2012,13070486.94,0.042080081
+27,Depressive and Other Psychoses,2011,7128938.394,0.025098152
+27,Depressive and Other Psychoses,2012,7665878.747,0.026529649
+27,Developmental Language Disorder,2011,5084843.526,0.009962876
+27,Developmental Language Disorder,2012,5613881.907,0.010598015
+27,Developmental Speech and Learning,2011,4939288.988,0.013948737
+27,Developmental Speech and Learning,2012,5235761.115,0.015457877
+27,Diabetes2,2011,1474580.611,0.003986029
+27,Diabetes2,2012,1625446.299,0.004233707
+27,Epilepsy and Epilepsy Complex,2011,2096436.43,0.002961629
+27,Epilepsy and Epilepsy Complex,2012,2070508.051,0.0028076
+27,Major Mental Health,2011,35337753.07,0.055910052
+27,Major Mental Health,2012,36425916.5,0.059003573
+27,Psoriasis,2011,1371160.083,0.00464416
+27,Psoriasis,2012,1138785.506,0.004221292
+27,Schizophrenia,2011,5611113.89,0.011297217
+27,Schizophrenia,2012,5846658.134,0.010716967
+27,Social Problems,2011,4028986.823,0.014427424
+27,Social Problems,2012,4010653.242,0.016355802
+27,Upper Respiratory Infectons,2011,94553569.03,0.353840709
+27,Upper Respiratory Infectons,2012,77778224.82,0.32818396
+28,Acute Bronchitis and Bronchiolitis,2011,16086921.18,0.152842351
+28,Acute Bronchitis and Bronchiolitis,2012,17808444.79,0.164372758
+28,Acute Respiratory Diagnoses - Moderate,2011,8941697.651,0.045564712
+28,Acute Respiratory Diagnoses - Moderate,2012,9353998.389,0.0468043
+28,Acute Skin Diagnoses,2011,14544822.81,0.128263014
+28,Acute Skin Diagnoses,2012,15669675.27,0.13048423
+28,Acute Stress and Anxiety,2011,3363203.523,0.025206709
+28,Acute Stress and Anxiety,2012,4204549.343,0.024981496
+28,ADHD,2011,23156364.56,0.098330463
+28,ADHD,2012,27334876.27,0.107446458
+28,Allergies,2011,24181464.48,0.218422057
+28,Allergies,2012,25884830.32,0.22650639
+28,Asthma,2011,17696868.9,0.119859996
+28,Asthma,2012,18862671.31,0.125844929
+28,Autism,2011,1046860.246,0.003726805
+28,Autism,2012,1409689.645,0.004283392
+28,BiPolar,2011,1815407.121,0.005384816
+28,BiPolar,2012,3575738.33,0.005448609
+28,Chronic Mental Health,2011,1059292.134,0.003086754
+28,Chronic Mental Health,2012,1519295.442,0.003184347
+28,Chronic Stress,2011,659458.866,0.003484586
+28,Chronic Stress,2012,914706.7116,0.003407811
+28,Conduct and Behavior,2011,12236952.28,0.053407695
+28,Conduct and Behavior,2012,15920193.31,0.055174633
+28,Conjunctivitis and Eye Diagnoses,2011,0,0
+28,Conjunctivitis and Eye Diagnoses,2012,0,0
+28,Dental Diagnoses,2011,10623878.78,0.049076207
+28,Dental Diagnoses,2012,11253373.48,0.055009932
+28,Depression,2011,4076426.74,0.016227088
+28,Depression,2012,6162144.139,0.01669157
+28,Depressive and Other Psychoses,2011,4748267.466,0.018303073
+28,Depressive and Other Psychoses,2012,8625525.464,0.018721948
+28,Developmental Language Disorder,2011,1580601.535,0.008753073
+28,Developmental Language Disorder,2012,1705514.852,0.009571582
+28,Developmental Speech and Learning,2011,2437000.466,0.015155422
+28,Developmental Speech and Learning,2012,2693487.164,0.028274233
+28,Diabetes2,2011,1070201.825,0.005133444
+28,Diabetes2,2012,1248518.352,0.005294669
+28,Epilepsy and Epilepsy Complex,2011,715697.5881,0.002710493
+28,Epilepsy and Epilepsy Complex,2012,747716.5195,0.002688622
+28,Major Mental Health,2011,28458198.29,0.056734219
+28,Major Mental Health,2012,38082870.26,0.059190112
+28,Psoriasis,2011,1140423.545,0.010847632
+28,Psoriasis,2012,1237244.13,0.013027573
+28,Schizophrenia,2011,4743428.355,0.017139264
+28,Schizophrenia,2012,8057400.308,0.017780014
+28,Social Problems,2011,1084596.392,0.004942785
+28,Social Problems,2012,1654824.734,0.005350953
+28,Upper Respiratory Infectons,2011,51652296.47,0.470598508
+28,Upper Respiratory Infectons,2012,56194323.57,0.498644351
+29,Acute Bronchitis and Bronchiolitis,2011,18568796.1,0.106345117
+29,Acute Bronchitis and Bronchiolitis,2012,18083354.46,0.1018027
+29,Acute Respiratory Diagnoses - Moderate,2011,11753004.47,0.042964829
+29,Acute Respiratory Diagnoses - Moderate,2012,11888784.95,0.040817227
+29,Acute Skin Diagnoses,2011,23721521.96,0.096829022
+29,Acute Skin Diagnoses,2012,25793248.82,0.102471149
+29,Acute Stress and Anxiety,2011,5077197.366,0.017510198
+29,Acute Stress and Anxiety,2012,5878133.594,0.018891745
+29,ADHD,2011,32970603.57,0.089079741
+29,ADHD,2012,35767785.83,0.092413955
+29,Allergies,2011,21749678.52,0.128483823
+29,Allergies,2012,23074367.8,0.132632448
+29,Asthma,2011,28103898.88,0.098384623
+29,Asthma,2012,30090169.39,0.101717424
+29,Autism,2011,3319320.376,0.006382861
+29,Autism,2012,3676940.775,0.007305756
+29,BiPolar,2011,9310905.639,0.015018373
+29,BiPolar,2012,9571531.613,0.015189313
+29,Chronic Mental Health,2011,6303274.179,0.016620945
+29,Chronic Mental Health,2012,6590954.693,0.01720671
+29,Chronic Stress,2011,2161401.077,0.005557146
+29,Chronic Stress,2012,2471202.466,0.006169265
+29,Conduct and Behavior,2011,12418670.45,0.038666247
+29,Conduct and Behavior,2012,13229032.09,0.040138511
+29,Conjunctivitis and Eye Diagnoses,2011,0,0
+29,Conjunctivitis and Eye Diagnoses,2012,0,0
+29,Dental Diagnoses,2011,7619124.273,0.030938391
+29,Dental Diagnoses,2012,7442382.281,0.031297244
+29,Depression,2011,15408991.15,0.029604973
+29,Depression,2012,16435664.89,0.03387439
+29,Depressive and Other Psychoses,2011,12007420.72,0.028286903
+29,Depressive and Other Psychoses,2012,12939002.69,0.029558978
+29,Developmental Language Disorder,2011,5082651.429,0.016894445
+29,Developmental Language Disorder,2012,5509084.571,0.018126703
+29,Developmental Speech and Learning,2011,5742058.453,0.026015998
+29,Developmental Speech and Learning,2012,5897706.113,0.02423353
+29,Diabetes2,2011,2311506.228,0.005242952
+29,Diabetes2,2012,2418742.701,0.004896577
+29,Epilepsy and Epilepsy Complex,2011,1224958.772,0.002930039
+29,Epilepsy and Epilepsy Complex,2012,1456546.646,0.003100303
+29,Major Mental Health,2011,47286668.33,0.06200518
+29,Major Mental Health,2012,49275511.65,0.063772448
+29,Psoriasis,2011,1548529.555,0.006176628
+29,Psoriasis,2012,1469950.232,0.00520881
+29,Schizophrenia,2011,10672915.54,0.022801975
+29,Schizophrenia,2012,11214788.41,0.023240762
+29,Social Problems,2011,16858599.87,0.051572602
+29,Social Problems,2012,17133468.51,0.048243803
+29,Upper Respiratory Infectons,2011,73499322.74,0.348439182
+29,Upper Respiratory Infectons,2012,76038827.74,0.344486578
+30,Acute Bronchitis and Bronchiolitis,2011,2328716.776,0.093699822
+30,Acute Bronchitis and Bronchiolitis,2012,2372156.768,0.086176414
+30,Acute Respiratory Diagnoses - Moderate,2011,1476249.744,0.030775041
+30,Acute Respiratory Diagnoses - Moderate,2012,1600083.121,0.031131842
+30,Acute Skin Diagnoses,2011,2294254.468,0.076589453
+30,Acute Skin Diagnoses,2012,2843877.074,0.082375542
+30,Acute Stress and Anxiety,2011,2669975.104,0.04473632
+30,Acute Stress and Anxiety,2012,3453259.844,0.051595978
+30,ADHD,2011,4938085.701,0.085463341
+30,ADHD,2012,6331935.533,0.08883069
+30,Allergies,2011,2121955.942,0.072063959
+30,Allergies,2012,2346969.378,0.069897155
+30,Asthma,2011,2606632.628,0.072751929
+30,Asthma,2012,2771897.179,0.070129588
+30,Autism,2011,600565.1634,0.008106102
+30,Autism,2012,776693.3296,0.00931923
+30,BiPolar,2011,1874998.657,0.016714367
+30,BiPolar,2012,2545244.462,0.01608644
+30,Chronic Mental Health,2011,3541578.36,0.0454563
+30,Chronic Mental Health,2012,4427556.883,0.045004983
+30,Chronic Stress,2011,1729246.41,0.023501354
+30,Chronic Stress,2012,2110863.075,0.027853819
+30,Conduct and Behavior,2011,4624120.448,0.062913404
+30,Conduct and Behavior,2012,5819452.752,0.063950638
+30,Conjunctivitis and Eye Diagnoses,2011,0,0
+30,Conjunctivitis and Eye Diagnoses,2012,0,0
+30,Dental Diagnoses,2011,2373397.988,0.069210193
+30,Dental Diagnoses,2012,2829768.221,0.072003223
+30,Depression,2011,3598412.478,0.050458153
+30,Depression,2012,4631042.607,0.051427489
+30,Depressive and Other Psychoses,2011,2489572.425,0.037389257
+30,Depressive and Other Psychoses,2012,3493813.895,0.038072067
+30,Developmental Language Disorder,2011,1424036.597,0.028847539
+30,Developmental Language Disorder,2012,1785951.232,0.031072008
+30,Developmental Speech and Learning,2011,1465913.944,0.033167025
+30,Developmental Speech and Learning,2012,1840120.925,0.03728696
+30,Diabetes2,2011,251225.8926,0.00363061
+30,Diabetes2,2012,294331.1513,0.003610174
+30,Epilepsy and Epilepsy Complex,2011,309076.8407,0.003944516
+30,Epilepsy and Epilepsy Complex,2012,229285.7412,0.002935042
+30,Major Mental Health,2011,14339480.47,0.102444572
+30,Major Mental Health,2012,17998449.31,0.102556737
+30,Psoriasis,2011,185876.8456,0.005049461
+30,Psoriasis,2012,156282.8736,0.004306474
+30,Schizophrenia,2011,1431044.135,0.014231247
+30,Schizophrenia,2012,1846275.029,0.015097208
+30,Social Problems,2011,988190.0274,0.017799396
+30,Social Problems,2012,1363188.07,0.02316229
+30,Upper Respiratory Infectons,2011,8949633.341,0.322636818
+30,Upper Respiratory Infectons,2012,9182257.207,0.300836529
+31,Acute Bronchitis and Bronchiolitis,2011,4628720.232,0.129883611
+31,Acute Bronchitis and Bronchiolitis,2012,4330468.169,0.108847262
+31,Acute Respiratory Diagnoses - Moderate,2011,2485757.414,0.030158772
+31,Acute Respiratory Diagnoses - Moderate,2012,2803327.782,0.029926735
+31,Acute Skin Diagnoses,2011,5189084.138,0.101879416
+31,Acute Skin Diagnoses,2012,5697166.753,0.096390223
+31,Acute Stress and Anxiety,2011,1315994.038,0.016905777
+31,Acute Stress and Anxiety,2012,1446665.068,0.018575191
+31,ADHD,2011,6641102.041,0.083171267
+31,ADHD,2012,7668601.607,0.082256643
+31,Allergies,2011,5278877.764,0.127494512
+31,Allergies,2012,5898553.095,0.128747486
+31,Asthma,2011,5389953.171,0.079611579
+31,Asthma,2012,5980200.479,0.07931045
+31,Autism,2011,463317.9827,0.003065905
+31,Autism,2012,585443.5121,0.00333144
+31,BiPolar,2011,1053161.277,0.009841002
+31,BiPolar,2012,1271086.284,0.008383176
+31,Chronic Mental Health,2011,693575.2666,0.008494031
+31,Chronic Mental Health,2012,1023123.786,0.008186538
+31,Chronic Stress,2011,527246.3479,0.005776098
+31,Chronic Stress,2012,623915.6235,0.006564227
+31,Conduct and Behavior,2011,3481261.498,0.038919138
+31,Conduct and Behavior,2012,3970346.183,0.036797921
+31,Conjunctivitis and Eye Diagnoses,2011,0,0
+31,Conjunctivitis and Eye Diagnoses,2012,0,0
+31,Dental Diagnoses,2011,31163382.9,0.579261914
+31,Dental Diagnoses,2012,35204241.56,0.578629234
+31,Depression,2011,2424754.397,0.028773761
+31,Depression,2012,3036215.846,0.027378903
+31,Depressive and Other Psychoses,2011,2363025.867,0.021614454
+31,Depressive and Other Psychoses,2012,3044528.068,0.023165662
+31,Developmental Language Disorder,2011,265602.5962,0.003112995
+31,Developmental Language Disorder,2012,423058.0574,0.004861511
+31,Developmental Speech and Learning,2011,333669.7132,0.005746851
+31,Developmental Speech and Learning,2012,420501.5813,0.006551469
+31,Diabetes2,2011,407859.0589,0.004139094
+31,Diabetes2,2012,371026.2995,0.003673432
+31,Epilepsy and Epilepsy Complex,2011,375351.6565,0.002790831
+31,Epilepsy and Epilepsy Complex,2012,445687.4577,0.002432723
+31,Major Mental Health,2011,10266028.9,0.056656784
+31,Major Mental Health,2012,12060567.42,0.054202116
+31,Psoriasis,2011,399166.1818,0.006704662
+31,Psoriasis,2012,351695.5788,0.005400972
+31,Schizophrenia,2011,2202724.681,0.02066146
+31,Schizophrenia,2012,2711519.918,0.019360018
+31,Social Problems,2011,516807.341,0.009441206
+31,Social Problems,2012,462022.8101,0.006483681
+31,Upper Respiratory Infectons,2011,16559386.62,0.394520177
+31,Upper Respiratory Infectons,2012,17135910.76,0.359592314
+32,Acute Bronchitis and Bronchiolitis,2011,2251274.499,0.111267346
+32,Acute Bronchitis and Bronchiolitis,2012,2233425.235,0.090026128
+32,Acute Respiratory Diagnoses - Moderate,2011,2175142.1,0.03137992
+32,Acute Respiratory Diagnoses - Moderate,2012,2673951.51,0.028781785
+32,Acute Skin Diagnoses,2011,2115852.687,0.073849945
+32,Acute Skin Diagnoses,2012,2601398.487,0.074827693
+32,Acute Stress and Anxiety,2011,1728660.843,0.020710216
+32,Acute Stress and Anxiety,2012,2985272.409,0.024018111
+32,ADHD,2011,5481138.51,0.048804359
+32,ADHD,2012,7982639.074,0.052410981
+32,Allergies,2011,3050360.515,0.103464028
+32,Allergies,2012,3593363.078,0.093460979
+32,Asthma,2011,3124958.737,0.071963431
+32,Asthma,2012,4005455.712,0.074297299
+32,Autism,2011,708153.0586,0.004957263
+32,Autism,2012,889051.6002,0.006242448
+32,BiPolar,2011,1466122.473,0.011965621
+32,BiPolar,2012,2566199.791,0.011116822
+32,Chronic Mental Health,2011,2979395.631,0.021220836
+32,Chronic Mental Health,2012,4383596.996,0.026328435
+32,Chronic Stress,2011,872876.8379,0.006189163
+32,Chronic Stress,2012,1344723.389,0.006823707
+32,Conduct and Behavior,2011,3827005.821,0.031157715
+32,Conduct and Behavior,2012,6061985.127,0.032950641
+32,Conjunctivitis and Eye Diagnoses,2011,0,0
+32,Conjunctivitis and Eye Diagnoses,2012,0,0
+32,Dental Diagnoses,2011,1776074.637,0.046697823
+32,Dental Diagnoses,2012,2048308.887,0.050031294
+32,Depression,2011,2424261.234,0.02230013
+32,Depression,2012,3959798.593,0.022369969
+32,Depressive and Other Psychoses,2011,3174006.227,0.023806182
+32,Depressive and Other Psychoses,2012,6090050.362,0.028969798
+32,Developmental Language Disorder,2011,9715905.648,0.030225638
+32,Developmental Language Disorder,2012,10840999.34,0.034326012
+32,Developmental Speech and Learning,2011,1033326.773,0.020715354
+32,Developmental Speech and Learning,2012,1438432.99,0.013830345
+32,Diabetes2,2011,246976.2378,0.00234384
+32,Diabetes2,2012,346814.9521,0.002509906
+32,Epilepsy and Epilepsy Complex,2011,379810.3251,0.002197674
+32,Epilepsy and Epilepsy Complex,2012,477449.7054,0.002417073
+32,Major Mental Health,2011,14313692.73,0.062683494
+32,Major Mental Health,2012,23027145.28,0.068670639
+32,Psoriasis,2011,96663.97263,0.001590196
+32,Psoriasis,2012,166285.8011,0.002734768
+32,Schizophrenia,2011,2288555.972,0.018727373
+32,Schizophrenia,2012,3707229.059,0.019373542
+32,Social Problems,2011,5982269.396,0.012100772
+32,Social Problems,2012,6697226.753,0.012205843
+32,Upper Respiratory Infectons,2011,6929242.901,0.305670091
+32,Upper Respiratory Infectons,2012,8039192.442,0.299672876
+33,Acute Bronchitis and Bronchiolitis,2011,1530875.952,0.057769399
+33,Acute Bronchitis and Bronchiolitis,2012,1636751.124,0.058003266
+33,Acute Respiratory Diagnoses - Moderate,2011,1541751.802,0.036405919
+33,Acute Respiratory Diagnoses - Moderate,2012,1609964.089,0.036551189
+33,Acute Skin Diagnoses,2011,3020241.239,0.096167022
+33,Acute Skin Diagnoses,2012,3193410.881,0.100095375
+33,Acute Stress and Anxiety,2011,2160569.81,0.037039773
+33,Acute Stress and Anxiety,2012,2494113.775,0.041192978
+33,ADHD,2011,7806565.363,0.106449248
+33,ADHD,2012,8454761.782,0.107960016
+33,Allergies,2011,2263080.762,0.075208114
+33,Allergies,2012,2558376.957,0.077939384
+33,Asthma,2011,3725942.453,0.090497884
+33,Asthma,2012,3940708.388,0.089815335
+33,Autism,2011,2678705.918,0.01238231
+33,Autism,2012,2671967.909,0.013221173
+33,BiPolar,2011,654445.0937,0.006778039
+33,BiPolar,2012,568751.9735,0.005664814
+33,Chronic Mental Health,2011,1044598.288,0.01546707
+33,Chronic Mental Health,2012,1151761.24,0.015642132
+33,Chronic Stress,2011,1261089.532,0.017504926
+33,Chronic Stress,2012,1370876.272,0.019030347
+33,Conduct and Behavior,2011,2936707.67,0.04284719
+33,Conduct and Behavior,2012,3078119.47,0.042761391
+33,Conjunctivitis and Eye Diagnoses,2011,0,0
+33,Conjunctivitis and Eye Diagnoses,2012,0,0
+33,Dental Diagnoses,2011,1524077.314,0.028004525
+33,Dental Diagnoses,2012,1521484.929,0.028152675
+33,Depression,2011,3099531.57,0.040494095
+33,Depression,2012,3273180.712,0.041730318
+33,Depressive and Other Psychoses,2011,1352597.458,0.021538697
+33,Depressive and Other Psychoses,2012,1575200.941,0.022284457
+33,Developmental Language Disorder,2011,1174886.043,0.014812122
+33,Developmental Language Disorder,2012,1135186.989,0.014633547
+33,Developmental Speech and Learning,2011,625122.1379,0.012433439
+33,Developmental Speech and Learning,2012,825275.3222,0.014135971
+33,Diabetes2,2011,436551.692,0.004978959
+33,Diabetes2,2012,446745.4962,0.004592921
+33,Epilepsy and Epilepsy Complex,2011,285687.7895,0.002856637
+33,Epilepsy and Epilepsy Complex,2012,281597.2081,0.002265504
+33,Major Mental Health,2011,9650944.381,0.063259752
+33,Major Mental Health,2012,9707315.638,0.062068736
+33,Psoriasis,2011,172392.0479,0.004396828
+33,Psoriasis,2012,222098.0112,0.005264674
+33,Schizophrenia,2011,1681736.118,0.015122702
+33,Schizophrenia,2012,1578211.992,0.014053232
+33,Social Problems,2011,2960227.461,0.053211208
+33,Social Problems,2012,2740710.092,0.052511601
+33,Upper Respiratory Infectons,2011,8377206.534,0.301326019
+33,Upper Respiratory Infectons,2012,8567283.279,0.28986997
+34,Acute Bronchitis and Bronchiolitis,2011,19216773.21,0.101853134
+34,Acute Bronchitis and Bronchiolitis,2012,20538944.7,0.102578841
+34,Acute Respiratory Diagnoses - Moderate,2011,15199705.09,0.050422161
+34,Acute Respiratory Diagnoses - Moderate,2012,16000990.46,0.055025506
+34,Acute Skin Diagnoses,2011,30524900.32,0.119244159
+34,Acute Skin Diagnoses,2012,33527498.62,0.119862145
+34,Acute Stress and Anxiety,2011,4556192.442,0.010969513
+34,Acute Stress and Anxiety,2012,5699722.328,0.01138413
+34,ADHD,2011,30844142.49,0.05192985
+34,ADHD,2012,36058294.87,0.0541517
+34,Allergies,2011,34358903.65,0.148080549
+34,Allergies,2012,36682706.86,0.147161312
+34,Asthma,2011,40831929.97,0.146444618
+34,Asthma,2012,40747959.99,0.135242959
+34,Autism,2011,9248772.503,0.008758718
+34,Autism,2012,11697297.88,0.009614859
+34,BiPolar,2011,3602733.378,0.004263907
+34,BiPolar,2012,5125839.583,0.004106639
+34,Chronic Mental Health,2011,19067382.92,0.027117868
+34,Chronic Mental Health,2012,19703314.24,0.025394584
+34,Chronic Stress,2011,1612352.868,0.002404626
+34,Chronic Stress,2012,2343429.131,0.002644029
+34,Conduct and Behavior,2011,19421327.14,0.026628911
+34,Conduct and Behavior,2012,23848502.99,0.027047535
+34,Conjunctivitis and Eye Diagnoses,2011,0,0
+34,Conjunctivitis and Eye Diagnoses,2012,784.4475279,0
+34,Dental Diagnoses,2011,6644348.581,0.029044584
+34,Dental Diagnoses,2012,6575020.507,0.028118207
+34,Depression,2011,7463658.716,0.011568701
+34,Depression,2012,9233944.395,0.012381131
+34,Depressive and Other Psychoses,2011,5846106.668,0.008268332
+34,Depressive and Other Psychoses,2012,8357571.777,0.009312678
+34,Developmental Language Disorder,2011,2657056.158,0.00826053
+34,Developmental Language Disorder,2012,2966023.965,0.007919836
+34,Developmental Speech and Learning,2011,8310490.171,0.017722604
+34,Developmental Speech and Learning,2012,9420450.627,0.018520302
+34,Diabetes2,2011,1781234.004,0.00685787
+34,Diabetes2,2012,1725154.801,0.008959029
+34,Epilepsy and Epilepsy Complex,2011,1577891.077,0.002825852
+34,Epilepsy and Epilepsy Complex,2012,1523841.778,0.002905178
+34,Major Mental Health,2011,48473834.72,0.035824305
+34,Major Mental Health,2012,55392810.3,0.036038963
+34,Psoriasis,2011,1432069.216,0.005134479
+34,Psoriasis,2012,1472378.07,0.005112645
+34,Schizophrenia,2011,7332209.356,0.008969768
+34,Schizophrenia,2012,8517101.37,0.009150548
+34,Social Problems,2011,6763327.07,0.013100625
+34,Social Problems,2012,9146253.965,0.01405578
+34,Upper Respiratory Infectons,2011,103806334,0.413424087
+34,Upper Respiratory Infectons,2012,107913237.5,0.406872186
+35,Acute Bronchitis and Bronchiolitis,2011,10887033.67,0.081593012
+35,Acute Bronchitis and Bronchiolitis,2012,11269301.61,0.088095923
+35,Acute Respiratory Diagnoses - Moderate,2011,7039390.275,0.044135895
+35,Acute Respiratory Diagnoses - Moderate,2012,7104101.285,0.045399732
+35,Acute Skin Diagnoses,2011,12327079.04,0.076104176
+35,Acute Skin Diagnoses,2012,12519550.63,0.081337745
+35,Acute Stress and Anxiety,2011,2648885.102,0.020725589
+35,Acute Stress and Anxiety,2012,2851658.842,0.024043901
+35,ADHD,2011,7841345.417,0.047580599
+35,ADHD,2012,8099277.035,0.04987923
+35,Allergies,2011,17651809.64,0.139208344
+35,Allergies,2012,18658558.18,0.150270875
+35,Asthma,2011,11959350.14,0.085564043
+35,Asthma,2012,12513790.2,0.093566607
+35,Autism,2011,1346366.744,0.004254847
+35,Autism,2012,1585365.858,0.004602486
+35,BiPolar,2011,795701.8076,0.007432042
+35,BiPolar,2012,682511.9158,0.006050262
+35,Chronic Mental Health,2011,1823667.638,0.014486638
+35,Chronic Mental Health,2012,2043774.875,0.016844353
+35,Chronic Stress,2011,832869.5774,0.008273538
+35,Chronic Stress,2012,989272.2891,0.010657939
+35,Conduct and Behavior,2011,3978035.466,0.029809322
+35,Conduct and Behavior,2012,3992904.642,0.031366553
+35,Conjunctivitis and Eye Diagnoses,2011,117.8181818,0
+35,Conjunctivitis and Eye Diagnoses,2012,0,0
+35,Dental Diagnoses,2011,7656570.241,0.06432047
+35,Dental Diagnoses,2012,7727098.52,0.060826959
+35,Depression,2011,3047145.502,0.023284263
+35,Depression,2012,3055332.659,0.024393396
+35,Depressive and Other Psychoses,2011,2276099.346,0.020168211
+35,Depressive and Other Psychoses,2012,2340982.319,0.021621569
+35,Developmental Language Disorder,2011,14106007.03,0.050331942
+35,Developmental Language Disorder,2012,14433455.64,0.051781897
+35,Developmental Speech and Learning,2011,9305411.171,0.040099217
+35,Developmental Speech and Learning,2012,9341933.581,0.041073266
+35,Diabetes2,2011,509442.6478,0.004124677
+35,Diabetes2,2012,486058.2434,0.004049557
+35,Epilepsy and Epilepsy Complex,2011,420622.3956,0.002476195
+35,Epilepsy and Epilepsy Complex,2012,390231.7605,0.002255346
+35,Major Mental Health,2011,10964307.94,0.043681554
+35,Major Mental Health,2012,11250323.45,0.046635893
+35,Psoriasis,2011,661596.1663,0.004578585
+35,Psoriasis,2012,686649.0251,0.004879309
+35,Schizophrenia,2011,1216023.128,0.007897612
+35,Schizophrenia,2012,1101367.506,0.007809833
+35,Social Problems,2011,3865663.543,0.023276762
+35,Social Problems,2012,5212974.725,0.028576999
+35,Upper Respiratory Infectons,2011,62011040.41,0.368645899
+35,Upper Respiratory Infectons,2012,60461626.56,0.37258051
+36,Acute Bronchitis and Bronchiolitis,2011,53379926.12,0.070917976
+36,Acute Bronchitis and Bronchiolitis,2012,51256953.37,0.072637579
+36,Acute Respiratory Diagnoses - Moderate,2011,48654955.18,0.042725595
+36,Acute Respiratory Diagnoses - Moderate,2012,47262256.29,0.042017209
+36,Acute Skin Diagnoses,2011,90283027.1,0.097084329
+36,Acute Skin Diagnoses,2012,103791044.4,0.111733029
+36,Acute Stress and Anxiety,2011,12687865.28,0.011992009
+36,Acute Stress and Anxiety,2012,17479949.02,0.015044554
+36,ADHD,2011,87706448.8,0.062212822
+36,ADHD,2012,97674388.98,0.066724131
+36,Allergies,2011,81433467.73,0.101413821
+36,Allergies,2012,92246301.99,0.116284747
+36,Asthma,2011,120211399.7,0.113707617
+36,Asthma,2012,123011853.6,0.117431856
+36,Autism,2011,23478646.91,0.007094432
+36,Autism,2012,30039924.09,0.008848645
+36,BiPolar,2011,15063506.89,0.006652301
+36,BiPolar,2012,21026708.77,0.006358529
+36,Chronic Mental Health,2011,7360543.33,0.004747927
+36,Chronic Mental Health,2012,9894558.756,0.006396619
+36,Chronic Stress,2011,5981873.656,0.003769286
+36,Chronic Stress,2012,8425886.205,0.005829443
+36,Conduct and Behavior,2011,35606819.67,0.024723194
+36,Conduct and Behavior,2012,47815311.84,0.027514604
+36,Conjunctivitis and Eye Diagnoses,2011,0,0
+36,Conjunctivitis and Eye Diagnoses,2012,0,0
+36,Dental Diagnoses,2011,58477093.03,0.07715197
+36,Dental Diagnoses,2012,68478886.11,0.062483553
+36,Depression,2011,21968901,0.016364972
+36,Depression,2012,27766248.88,0.01807926
+36,Depressive and Other Psychoses,2011,26941122.81,0.014214425
+36,Depressive and Other Psychoses,2012,37998505.05,0.016518366
+36,Developmental Language Disorder,2011,19625613.23,0.011693016
+36,Developmental Language Disorder,2012,43327797.63,0.025672624
+36,Developmental Speech and Learning,2011,27182450.49,0.015664387
+36,Developmental Speech and Learning,2012,35844323.42,0.021006447
+36,Diabetes2,2011,7662217.074,0.004395775
+36,Diabetes2,2012,8638657.645,0.004945108
+36,Epilepsy and Epilepsy Complex,2011,6475225.305,0.002634966
+36,Epilepsy and Epilepsy Complex,2012,7548935.623,0.002761012
+36,Major Mental Health,2011,122505690.5,0.034703721
+36,Major Mental Health,2012,154875471,0.036907295
+36,Psoriasis,2011,4385725.834,0.004180361
+36,Psoriasis,2012,4455363.657,0.004704683
+36,Schizophrenia,2011,27821300.86,0.014201756
+36,Schizophrenia,2012,39599308.94,0.014679544
+36,Social Problems,2011,7061790.079,0.006651128
+36,Social Problems,2012,9073645.285,0.007632362
+36,Upper Respiratory Infectons,2011,285359832.4,0.332778225
+36,Upper Respiratory Infectons,2012,295547412.6,0.345328253
+37,Acute Bronchitis and Bronchiolitis,2011,25806434.27,0.096932232
+37,Acute Bronchitis and Bronchiolitis,2012,30534679.41,0.106368523
+37,Acute Respiratory Diagnoses - Moderate,2011,19369246.52,0.045553327
+37,Acute Respiratory Diagnoses - Moderate,2012,21390576.51,0.046914999
+37,Acute Skin Diagnoses,2011,37655710.71,0.115365154
+37,Acute Skin Diagnoses,2012,42400003.8,0.117815084
+37,Acute Stress and Anxiety,2011,13718106.27,0.022163357
+37,Acute Stress and Anxiety,2012,15866779.6,0.023185069
+37,ADHD,2011,70436717.85,0.102513661
+37,ADHD,2012,81789675.84,0.099937359
+37,Allergies,2011,47132663.28,0.154153219
+37,Allergies,2012,54272640.24,0.158761219
+37,Asthma,2011,44420254.31,0.111443716
+37,Asthma,2012,49412873.49,0.113572542
+37,Autism,2011,9697174.219,0.007412055
+37,Autism,2012,10834913.14,0.007169201
+37,BiPolar,2011,8661255.371,0.007832562
+37,BiPolar,2012,10339641.52,0.00613512
+37,Chronic Mental Health,2011,8397428.766,0.009372119
+37,Chronic Mental Health,2012,10156478.4,0.009796191
+37,Chronic Stress,2011,4354828.165,0.004963624
+37,Chronic Stress,2012,4664588.624,0.004486443
+37,Conduct and Behavior,2011,46223809.75,0.056721609
+37,Conduct and Behavior,2012,50977085.92,0.052831577
+37,Conjunctivitis and Eye Diagnoses,2011,0,0
+37,Conjunctivitis and Eye Diagnoses,2012,139,0
+37,Dental Diagnoses,2011,14652154.94,0.032252714
+37,Dental Diagnoses,2012,15356718.39,0.031949735
+37,Depression,2011,18572487,0.021384509
+37,Depression,2012,21653957.1,0.018942407
+37,Depressive and Other Psychoses,2011,16490457.03,0.019017984
+37,Depressive and Other Psychoses,2012,19724643.11,0.017262792
+37,Developmental Language Disorder,2011,30034462.16,0.047978236
+37,Developmental Language Disorder,2012,30628309.56,0.043957662
+37,Developmental Speech and Learning,2011,14041195.42,0.03063994
+37,Developmental Speech and Learning,2012,14871581,0.029690098
+37,Diabetes2,2011,3171462.335,0.004223078
+37,Diabetes2,2012,4010839.184,0.004232865
+37,Epilepsy and Epilepsy Complex,2011,3621999.291,0.003471562
+37,Epilepsy and Epilepsy Complex,2012,3734690.892,0.003172826
+37,Major Mental Health,2011,105556176.2,0.061520727
+37,Major Mental Health,2012,118972979.1,0.05895321
+37,Psoriasis,2011,2588745.73,0.006464638
+37,Psoriasis,2012,2771631.672,0.006296241
+37,Schizophrenia,2011,13028230.1,0.013280031
+37,Schizophrenia,2012,16444751.13,0.012248602
+37,Social Problems,2011,7641598.145,0.020038104
+37,Social Problems,2012,6694898.034,0.010885836
+37,Upper Respiratory Infectons,2011,104921590.7,0.369155186
+37,Upper Respiratory Infectons,2012,114918864.1,0.370032415
+38,Acute Bronchitis and Bronchiolitis,2011,1461886.412,0.114108803
+38,Acute Bronchitis and Bronchiolitis,2012,1415538.533,0.105725959
+38,Acute Respiratory Diagnoses - Moderate,2011,856329.6323,0.025815752
+38,Acute Respiratory Diagnoses - Moderate,2012,1114031.886,0.026163759
+38,Acute Skin Diagnoses,2011,1476347.965,0.099068874
+38,Acute Skin Diagnoses,2012,1717521.663,0.095601104
+38,Acute Stress and Anxiety,2011,706229.369,0.025578588
+38,Acute Stress and Anxiety,2012,1186811.701,0.027165115
+38,ADHD,2011,2317205.737,0.10042387
+38,ADHD,2012,3393547.558,0.101267287
+38,Allergies,2011,1075693.736,0.072052608
+38,Allergies,2012,1319607.215,0.077110933
+38,Asthma,2011,1420300.778,0.081689592
+38,Asthma,2012,1737400.715,0.078531411
+38,Autism,2011,349672.0554,0.005659301
+38,Autism,2012,726149.9501,0.006256382
+38,BiPolar,2011,237491.9729,0.005494457
+38,BiPolar,2012,481364.989,0.00558941
+38,Chronic Mental Health,2011,486271.3607,0.011786656
+38,Chronic Mental Health,2012,633616.2333,0.010842567
+38,Chronic Stress,2011,311920.8818,0.009725731
+38,Chronic Stress,2012,579283.8058,0.010146788
+38,Conduct and Behavior,2011,1164155.582,0.038082387
+38,Conduct and Behavior,2012,1720982.261,0.039710387
+38,Conjunctivitis and Eye Diagnoses,2011,0,0
+38,Conjunctivitis and Eye Diagnoses,2012,0,0
+38,Dental Diagnoses,2011,871659.8406,0.058931486
+38,Dental Diagnoses,2012,1092481.788,0.057618204
+38,Depression,2011,1220031.446,0.036862641
+38,Depression,2012,1938339.764,0.038737828
+38,Depressive and Other Psychoses,2011,856905.2824,0.022876631
+38,Depressive and Other Psychoses,2012,1406195.107,0.023135438
+38,Developmental Language Disorder,2011,557035.6081,0.015043436
+38,Developmental Language Disorder,2012,677244.5701,0.017187622
+38,Developmental Speech and Learning,2011,454310.0164,0.015400759
+38,Developmental Speech and Learning,2012,492716.9778,0.015087506
+38,Diabetes2,2011,116542.809,0.003055079
+38,Diabetes2,2012,192228.201,0.003438262
+38,Epilepsy and Epilepsy Complex,2011,110528.7777,0.002392102
+38,Epilepsy and Epilepsy Complex,2012,147544.4191,0.00166563
+38,Major Mental Health,2011,3106201.881,0.046491305
+38,Major Mental Health,2012,5136463.779,0.046075254
+38,Psoriasis,2011,71682.46979,0.004637836
+38,Psoriasis,2012,72129.59976,0.003459567
+38,Schizophrenia,2011,500990.6081,0.011649741
+38,Schizophrenia,2012,1197258.21,0.012419589
+38,Social Problems,2011,548758.4,0.0192151
+38,Social Problems,2012,647694.6169,0.017840934
+38,Upper Respiratory Infectons,2011,4881461.517,0.37272928
+38,Upper Respiratory Infectons,2012,4844654.07,0.336532367
+39,Acute Bronchitis and Bronchiolitis,2011,27449615.46,0.059851033
+39,Acute Bronchitis and Bronchiolitis,2012,34000180.54,0.076809839
+39,Acute Respiratory Diagnoses - Moderate,2011,24616083.65,0.035762614
+39,Acute Respiratory Diagnoses - Moderate,2012,19992707.12,0.037667647
+39,Acute Skin Diagnoses,2011,54476229.86,0.089798988
+39,Acute Skin Diagnoses,2012,64508642.07,0.11775105
+39,Acute Stress and Anxiety,2011,9218283.714,0.013497975
+39,Acute Stress and Anxiety,2012,10464575.59,0.018186581
+39,ADHD,2011,71995254.77,0.091417305
+39,ADHD,2012,59816203.8,0.096395235
+39,Allergies,2011,37011058.92,0.07758968
+39,Allergies,2012,40213652.55,0.096821539
+39,Asthma,2011,55164130.19,0.089408622
+39,Asthma,2012,47203746.7,0.100685
+39,Autism,2011,7457948.795,0.006171068
+39,Autism,2012,7339629.321,0.006605702
+39,BiPolar,2011,7597415.334,0.008161691
+39,BiPolar,2012,5902081.607,0.007437665
+39,Chronic Mental Health,2011,6093312.532,0.007064371
+39,Chronic Mental Health,2012,6150378.085,0.007821121
+39,Chronic Stress,2011,4787907.385,0.004701757
+39,Chronic Stress,2012,5173276.506,0.006222661
+39,Conduct and Behavior,2011,27704867.02,0.039501622
+39,Conduct and Behavior,2012,28839399.49,0.045581935
+39,Conjunctivitis and Eye Diagnoses,2011,0,0
+39,Conjunctivitis and Eye Diagnoses,2012,0,0
+39,Dental Diagnoses,2011,14679474.37,0.033267406
+39,Dental Diagnoses,2012,16590970.72,0.036908657
+39,Depression,2011,19665774.9,0.022852451
+39,Depression,2012,18742610.13,0.025152802
+39,Depressive and Other Psychoses,2011,13691714.47,0.018115457
+39,Depressive and Other Psychoses,2012,14196749.7,0.020823179
+39,Developmental Language Disorder,2011,12895659.48,0.021509594
+39,Developmental Language Disorder,2012,12533516.25,0.021800547
+39,Developmental Speech and Learning,2011,23876858.12,0.037677116
+39,Developmental Speech and Learning,2012,23642357.88,0.039522089
+39,Diabetes2,2011,5037785.271,0.00497666
+39,Diabetes2,2012,3408582.277,0.005279007
+39,Epilepsy and Epilepsy Complex,2011,2985396.43,0.002256095
+39,Epilepsy and Epilepsy Complex,2012,3002506.522,0.002699105
+39,Major Mental Health,2011,82040374.41,0.053186337
+39,Major Mental Health,2012,79178724.1,0.057197052
+39,Psoriasis,2011,2928320.476,0.00493087
+39,Psoriasis,2012,2317394.186,0.004787461
+39,Schizophrenia,2011,14231508.55,0.016599356
+39,Schizophrenia,2012,12759151.58,0.016719671
+39,Social Problems,2011,3310916.555,0.005132557
+39,Social Problems,2012,3921355.386,0.006467127
+39,Upper Respiratory Infectons,2011,130756126,0.227316207
+39,Upper Respiratory Infectons,2012,153598158.3,0.294002024
+40,Acute Bronchitis and Bronchiolitis,2011,13108034.62,0.0958969
+40,Acute Bronchitis and Bronchiolitis,2012,16519031.67,0.109906219
+40,Acute Respiratory Diagnoses - Moderate,2011,9994677.112,0.044957733
+40,Acute Respiratory Diagnoses - Moderate,2012,10701412.07,0.046602069
+40,Acute Skin Diagnoses,2011,15064879.92,0.097068782
+40,Acute Skin Diagnoses,2012,16937763.98,0.099855019
+40,Acute Stress and Anxiety,2011,5945099.916,0.026943681
+40,Acute Stress and Anxiety,2012,7915852.078,0.030170915
+40,ADHD,2011,21863270.86,0.081743408
+40,ADHD,2012,28483927.22,0.087556634
+40,Allergies,2011,25471381.35,0.170814532
+40,Allergies,2012,29798781.22,0.183146448
+40,Asthma,2011,20168430.58,0.10287584
+40,Asthma,2012,22954213.64,0.11034285
+40,Autism,2011,2213627.813,0.004794219
+40,Autism,2012,2764124.265,0.005983259
+40,BiPolar,2011,3001498.464,0.009674853
+40,BiPolar,2012,4546204.886,0.00855697
+40,Chronic Mental Health,2011,4396756.968,0.010770893
+40,Chronic Mental Health,2012,5650077.781,0.012401931
+40,Chronic Stress,2011,2556165.873,0.008823849
+40,Chronic Stress,2012,3135753.061,0.010727481
+40,Conduct and Behavior,2011,17437539.36,0.055882604
+40,Conduct and Behavior,2012,22108224.01,0.058144817
+40,Conjunctivitis and Eye Diagnoses,2011,0,0
+40,Conjunctivitis and Eye Diagnoses,2012,81.85185185,0
+40,Dental Diagnoses,2011,9318431.371,0.037869306
+40,Dental Diagnoses,2012,9652768.031,0.038495671
+40,Depression,2011,12847632.95,0.037475376
+40,Depression,2012,17228763.32,0.039147491
+40,Depressive and Other Psychoses,2011,6628308.598,0.020483039
+40,Depressive and Other Psychoses,2012,11077026.13,0.023071792
+40,Developmental Language Disorder,2011,4094989.256,0.016905801
+40,Developmental Language Disorder,2012,5368936.576,0.020024004
+40,Developmental Speech and Learning,2011,5751342.553,0.027938757
+40,Developmental Speech and Learning,2012,6716082.546,0.029115167
+40,Diabetes2,2011,1523455.423,0.004758624
+40,Diabetes2,2012,1698878.311,0.00466114
+40,Epilepsy and Epilepsy Complex,2011,929634.7977,0.002308371
+40,Epilepsy and Epilepsy Complex,2012,1154283.059,0.002394187
+40,Major Mental Health,2011,38601234.96,0.063384154
+40,Major Mental Health,2012,53072982.1,0.069020421
+40,Psoriasis,2011,941994.2816,0.004496895
+40,Psoriasis,2012,941273.4868,0.004336227
+40,Schizophrenia,2011,6004645.393,0.01919867
+40,Schizophrenia,2012,9147997.633,0.019612786
+40,Social Problems,2011,5141241.505,0.017414451
+40,Social Problems,2012,5554413.883,0.01686627
+40,Upper Respiratory Infectons,2011,48863909.79,0.343032278
+40,Upper Respiratory Infectons,2012,52189600.91,0.343824406
+41,Acute Bronchitis and Bronchiolitis,2011,8076478.984,0.067705554
+41,Acute Bronchitis and Bronchiolitis,2012,7383994.019,0.054420066
+41,Acute Respiratory Diagnoses - Moderate,2011,4095406.252,0.032012582
+41,Acute Respiratory Diagnoses - Moderate,2012,4141273.507,0.028945006
+41,Acute Skin Diagnoses,2011,11698611.59,0.081218185
+41,Acute Skin Diagnoses,2012,12617686.64,0.079134888
+41,Acute Stress and Anxiety,2011,2995798.306,0.022331357
+41,Acute Stress and Anxiety,2012,3755799.529,0.023888702
+41,ADHD,2011,11060136.36,0.056056316
+41,ADHD,2012,12338874.89,0.056314076
+41,Allergies,2011,5692602.716,0.050426259
+41,Allergies,2012,5940406.88,0.047791958
+41,Asthma,2011,8838233.443,0.073077044
+41,Asthma,2012,9070220.328,0.067655456
+41,Autism,2011,2670673.89,0.006775975
+41,Autism,2012,3165673.866,0.007117957
+41,BiPolar,2011,884772.2006,0.004650852
+41,BiPolar,2012,1146837.942,0.004144215
+41,Chronic Mental Health,2011,2412014.317,0.015871098
+41,Chronic Mental Health,2012,2895447.504,0.01613875
+41,Chronic Stress,2011,1232126.593,0.007657201
+41,Chronic Stress,2012,1575187.97,0.008023823
+41,Conduct and Behavior,2011,3372172.249,0.023319099
+41,Conduct and Behavior,2012,3726316.075,0.022730267
+41,Conjunctivitis and Eye Diagnoses,2011,0,0
+41,Conjunctivitis and Eye Diagnoses,2012,0,0
+41,Dental Diagnoses,2011,4404361.78,0.029121901
+41,Dental Diagnoses,2012,4680258.608,0.02749287
+41,Depression,2011,4035991.573,0.023227941
+41,Depression,2012,4766851.294,0.023605127
+41,Depressive and Other Psychoses,2011,1410920.032,0.010297277
+41,Depressive and Other Psychoses,2012,1844789.866,0.010641902
+41,Developmental Language Disorder,2011,4813967.652,0.025137723
+41,Developmental Language Disorder,2012,5587044.872,0.025967123
+41,Developmental Speech and Learning,2011,3386203.149,0.021677813
+41,Developmental Speech and Learning,2012,3649031.123,0.020722692
+41,Diabetes2,2011,516084.5455,0.003717169
+41,Diabetes2,2012,890665.4259,0.005539065
+41,Epilepsy and Epilepsy Complex,2011,621679.148,0.002524092
+41,Epilepsy and Epilepsy Complex,2012,753978.3762,0.002547255
+41,Major Mental Health,2011,11626437.85,0.035705317
+41,Major Mental Health,2012,13596387.63,0.035629028
+41,Psoriasis,2011,355144.7638,0.002687778
+41,Psoriasis,2012,378906.8143,0.002794048
+41,Schizophrenia,2011,2105358.209,0.00843086
+41,Schizophrenia,2012,2657390.345,0.008476611
+41,Social Problems,2011,2973589.25,0.017311173
+41,Social Problems,2012,3286586.632,0.01875694
+41,Upper Respiratory Infectons,2011,35804692.56,0.257798361
+41,Upper Respiratory Infectons,2012,36847110.62,0.239967794
+42,Acute Bronchitis and Bronchiolitis,2011,10065350.33,0.083539298
+42,Acute Bronchitis and Bronchiolitis,2012,20943197.3,0.054087764
+42,Acute Respiratory Diagnoses - Moderate,2011,9454829.226,0.028499345
+42,Acute Respiratory Diagnoses - Moderate,2012,18397890.3,0.024076183
+42,Acute Skin Diagnoses,2011,11793960.5,0.061622597
+42,Acute Skin Diagnoses,2012,41236355.12,0.060396452
+42,Acute Stress and Anxiety,2011,2953809.761,0.006514526
+42,Acute Stress and Anxiety,2012,5174834.408,0.00640178
+42,ADHD,2011,30401616.11,0.079021124
+42,ADHD,2012,49991120.8,0.06114202
+42,Allergies,2011,11887796.5,0.091749469
+42,Allergies,2012,39046552.18,0.064526971
+42,Asthma,2011,17240626.68,0.063292956
+42,Asthma,2012,67407321.91,0.072669335
+42,Autism,2011,5736482.132,0.00484115
+42,Autism,2012,38228159.01,0.011907293
+42,BiPolar,2011,2616444.295,0.004320001
+42,BiPolar,2012,3455673.929,0.004399247
+42,Chronic Mental Health,2011,469666.5873,0.000625558
+42,Chronic Mental Health,2012,657628.2529,0.000859452
+42,Chronic Stress,2011,1158160.031,0.001615956
+42,Chronic Stress,2012,974749.4813,0.001556493
+42,Conduct and Behavior,2011,8580293.952,0.010169258
+42,Conduct and Behavior,2012,11470452.14,0.013961619
+42,Conjunctivitis and Eye Diagnoses,2011,0,0
+42,Conjunctivitis and Eye Diagnoses,2012,452.7333333,0
+42,Dental Diagnoses,2011,6456186.001,0.036729357
+42,Dental Diagnoses,2012,14929966.04,0.0331592
+42,Depression,2011,7095962.731,0.018307681
+42,Depression,2012,7811843.519,0.016968432
+42,Depressive and Other Psychoses,2011,5191990.177,0.004443337
+42,Depressive and Other Psychoses,2012,5677136.068,0.005981486
+42,Developmental Language Disorder,2011,3776419.784,0.002972326
+42,Developmental Language Disorder,2012,7307783.783,0.004048217
+42,Developmental Speech and Learning,2011,6463593.557,0.006565031
+42,Developmental Speech and Learning,2012,26501945.04,0.013481344
+42,Diabetes2,2011,4609808.339,0.003988184
+42,Diabetes2,2012,8318366.807,0.004599061
+42,Epilepsy and Epilepsy Complex,2011,1618318.359,0.001745964
+42,Epilepsy and Epilepsy Complex,2012,2241261.965,0.001625054
+42,Major Mental Health,2011,17487333.64,0.028746296
+42,Major Mental Health,2012,21083908.51,0.021726428
+42,Psoriasis,2011,815936.1824,0.002352563
+42,Psoriasis,2012,1723063.473,0.0021333
+42,Schizophrenia,2011,6348502.405,0.02229067
+42,Schizophrenia,2012,7267304.665,0.013340976
+42,Social Problems,2011,880674.2082,0.001785033
+42,Social Problems,2012,3046862.669,0.003194039
+42,Upper Respiratory Infectons,2011,39179453.7,0.26594208
+42,Upper Respiratory Infectons,2012,95308000.83,0.180815781
+44,Acute Bronchitis and Bronchiolitis,2011,2341511.475,0.062310694
+44,Acute Respiratory Diagnoses - Moderate,2011,1915980.265,0.048731374
+44,Acute Skin Diagnoses,2011,5673326.265,0.131337395
+44,Acute Stress and Anxiety,2011,1744457.382,0.033074998
+44,ADHD,2011,6426673.005,0.098662483
+44,Allergies,2011,3819878.048,0.113724636
+44,Asthma,2011,5106541.653,0.125126139
+44,Autism,2011,3329107.962,0.014977544
+44,BiPolar,2011,709448.1191,0.009223006
+44,Chronic Mental Health,2011,960966.8055,0.01330578
+44,Chronic Stress,2011,766529.0292,0.011390277
+44,Conduct and Behavior,2011,2684855.396,0.044017816
+44,Conjunctivitis and Eye Diagnoses,2011,0,0
+44,Dental Diagnoses,2011,17790685.42,0.301822192
+44,Depression,2011,2300694.774,0.034083065
+44,Depressive and Other Psychoses,2011,1762488.29,0.026559838
+44,Developmental Language Disorder,2011,1470479.384,0.022467773
+44,Developmental Speech and Learning,2011,3679019.917,0.049048789
+44,Diabetes2,2011,181756.7671,0.00365215
+44,Epilepsy and Epilepsy Complex,2011,147139.6352,0.00231295
+44,Major Mental Health,2011,7802504.787,0.055785679
+44,Psoriasis,2011,211240.6898,0.004946625
+44,Schizophrenia,2011,1407854.321,0.014590819
+44,Social Problems,2011,4532537.811,0.033316598
+44,Upper Respiratory Infectons,2011,12017643.39,0.303113602
+45,Acute Bronchitis and Bronchiolitis,2011,11415931.32,0.065870849
+45,Acute Bronchitis and Bronchiolitis,2012,15253402.2,0.103936261
+45,Acute Respiratory Diagnoses - Moderate,2011,9626083.936,0.041583641
+45,Acute Respiratory Diagnoses - Moderate,2012,8597826.368,0.042674482
+45,Acute Skin Diagnoses,2011,17335928.35,0.09123087
+45,Acute Skin Diagnoses,2012,23113215.34,0.130648361
+45,Acute Stress and Anxiety,2011,4141338.365,0.016404641
+45,Acute Stress and Anxiety,2012,4093757.882,0.018086587
+45,ADHD,2011,23867336.38,0.09433641
+45,ADHD,2012,25683447.01,0.105600282
+45,Allergies,2011,22465857.87,0.132804582
+45,Allergies,2012,28788389.27,0.194314135
+45,Asthma,2011,17599950.11,0.090364509
+45,Asthma,2012,20265138.64,0.121936243
+45,Autism,2011,4540307.449,0.008607357
+45,Autism,2012,4543127.715,0.010053779
+45,BiPolar,2011,1103126.811,0.003169983
+45,BiPolar,2012,1627711.596,0.003010845
+45,Chronic Mental Health,2011,1106674.132,0.003867811
+45,Chronic Mental Health,2012,1183325.498,0.003360244
+45,Chronic Stress,2011,1249604.788,0.003893037
+45,Chronic Stress,2012,1249500.665,0.004626464
+45,Conduct and Behavior,2011,8659465.207,0.03071061
+45,Conduct and Behavior,2012,9736819.727,0.032744599
+45,Conjunctivitis and Eye Diagnoses,2011,0,0
+45,Conjunctivitis and Eye Diagnoses,2012,0,0
+45,Dental Diagnoses,2011,9104231.437,0.056652074
+45,Dental Diagnoses,2012,8607826.028,0.058459372
+45,Depression,2011,4363801.249,0.014481485
+45,Depression,2012,5329377.207,0.018061592
+45,Depressive and Other Psychoses,2011,2552742.953,0.009243109
+45,Depressive and Other Psychoses,2012,3187635.312,0.009790543
+45,Developmental Language Disorder,2011,17470013.7,0.045293207
+45,Developmental Language Disorder,2012,14545750.44,0.045968915
+45,Developmental Speech and Learning,2011,15340937.9,0.048334846
+45,Developmental Speech and Learning,2012,13307544.96,0.051020519
+45,Diabetes2,2011,1807383.957,0.006732338
+45,Diabetes2,2012,1761106.033,0.008533171
+45,Epilepsy and Epilepsy Complex,2011,1056722.406,0.002526676
+45,Epilepsy and Epilepsy Complex,2012,1277407.975,0.003660645
+45,Major Mental Health,2011,16424928.88,0.029411476
+45,Major Mental Health,2012,17934494.2,0.029910815
+45,Psoriasis,2011,967018.3272,0.005605082
+45,Psoriasis,2012,1186427.806,0.00804311
+45,Schizophrenia,2011,2559059.732,0.007829096
+45,Schizophrenia,2012,3153319.78,0.008641599
+45,Social Problems,2011,3147425.596,0.010493787
+45,Social Problems,2012,3124485.132,0.012271037
+45,Upper Respiratory Infectons,2011,53716557.04,0.282233898
+45,Upper Respiratory Infectons,2012,64237707.62,0.382623339
+46,Acute Bronchitis and Bronchiolitis,2011,2701003.717,0.133918994
+46,Acute Bronchitis and Bronchiolitis,2012,3022293.936,0.135681232
+46,Acute Respiratory Diagnoses - Moderate,2011,1660547.236,0.026965871
+46,Acute Respiratory Diagnoses - Moderate,2012,1843877.305,0.031373531
+46,Acute Skin Diagnoses,2011,3024985.1,0.118960265
+46,Acute Skin Diagnoses,2012,3595567.261,0.122557011
+46,Acute Stress and Anxiety,2011,897161.9446,0.016874197
+46,Acute Stress and Anxiety,2012,1157515.823,0.017997653
+46,ADHD,2011,3860204.366,0.065612795
+46,ADHD,2012,5833874.247,0.068706464
+46,Allergies,2011,2638827.059,0.121650231
+46,Allergies,2012,2966166.322,0.130915322
+46,Asthma,2011,2748525.913,0.077494923
+46,Asthma,2012,3087610.024,0.085771636
+46,Autism,2011,267821.0177,0.002718673
+46,Autism,2012,420799.5182,0.003560334
+46,BiPolar,2011,413127.1622,0.002987461
+46,BiPolar,2012,511421.0644,0.003053336
+46,Chronic Mental Health,2011,488880.4759,0.005047827
+46,Chronic Mental Health,2012,746051.8231,0.005283867
+46,Chronic Stress,2011,356227.7933,0.0041176
+46,Chronic Stress,2012,351337.7038,0.004851285
+46,Conduct and Behavior,2011,1593362.921,0.028680534
+46,Conduct and Behavior,2012,2657480.769,0.029349668
+46,Conjunctivitis and Eye Diagnoses,2011,0,0
+46,Conjunctivitis and Eye Diagnoses,2012,0,0
+46,Dental Diagnoses,2011,2545843.981,0.081295758
+46,Dental Diagnoses,2012,2933392.413,0.095544177
+46,Depression,2011,2121360.209,0.027619216
+46,Depression,2012,3492965.902,0.028482197
+46,Depressive and Other Psychoses,2011,869420.881,0.01198123
+46,Depressive and Other Psychoses,2012,1451225.243,0.012696423
+46,Developmental Language Disorder,2011,296831.3982,0.005121985
+46,Developmental Language Disorder,2012,323423.7141,0.005507397
+46,Developmental Speech and Learning,2011,240430.4638,0.005788824
+46,Developmental Speech and Learning,2012,279941.3418,0.00587969
+46,Diabetes2,2011,190303.1476,0.003907775
+46,Diabetes2,2012,335729.6707,0.003672297
+46,Epilepsy and Epilepsy Complex,2011,194534.1644,0.002251291
+46,Epilepsy and Epilepsy Complex,2012,254072.5781,0.002238096
+46,Major Mental Health,2011,4675764.237,0.031366093
+46,Major Mental Health,2012,6830946.862,0.032281772
+46,Psoriasis,2011,184605.0955,0.007577559
+46,Psoriasis,2012,241004.9971,0.007933913
+46,Schizophrenia,2011,789389.6783,0.006611031
+46,Schizophrenia,2012,1090242.799,0.007149892
+46,Social Problems,2011,478633.6602,0.012172418
+46,Social Problems,2012,802358.3889,0.013690718
+46,Upper Respiratory Infectons,2011,9604410.698,0.413063208
+46,Upper Respiratory Infectons,2012,10375938.28,0.413777843
+47,Acute Bronchitis and Bronchiolitis,2011,43760790.25,0.124804854
+47,Acute Bronchitis and Bronchiolitis,2012,51201378.6,0.133793823
+47,Acute Respiratory Diagnoses - Moderate,2011,13312551.88,0.037311352
+47,Acute Respiratory Diagnoses - Moderate,2012,14801626.61,0.037826267
+47,Acute Skin Diagnoses,2011,53011655.84,0.116408147
+47,Acute Skin Diagnoses,2012,59161537.24,0.12062248
+47,Acute Stress and Anxiety,2011,5066092.379,0.018062042
+47,Acute Stress and Anxiety,2012,5687057.868,0.020325243
+47,ADHD,2011,36987251.84,0.084261796
+47,ADHD,2012,39870880.76,0.089074189
+47,Allergies,2011,64007411.07,0.178178919
+47,Allergies,2012,73518283.72,0.190352232
+47,Asthma,2011,42029735.3,0.104775174
+47,Asthma,2012,44772922.54,0.107570542
+47,Autism,2011,2155531.527,0.004387729
+47,Autism,2012,2672023.616,0.005229031
+47,BiPolar,2011,3046168.992,0.008331002
+47,BiPolar,2012,2813279.144,0.007407975
+47,Chronic Mental Health,2011,1864018.647,0.006108469
+47,Chronic Mental Health,2012,1840787.112,0.006345819
+47,Chronic Stress,2011,1638112.85,0.004764442
+47,Chronic Stress,2012,1726564.365,0.005262915
+47,Conduct and Behavior,2011,10652650.69,0.033086585
+47,Conduct and Behavior,2012,11616449.6,0.035818451
+47,Conjunctivitis and Eye Diagnoses,2011,0,0
+47,Conjunctivitis and Eye Diagnoses,2012,0,0
+47,Dental Diagnoses,2011,14391907.91,0.029397935
+47,Dental Diagnoses,2012,15298080.84,0.029867585
+47,Depression,2011,7645287.99,0.020679046
+47,Depression,2012,8122093.044,0.022404736
+47,Depressive and Other Psychoses,2011,5945006.16,0.017520515
+47,Depressive and Other Psychoses,2012,6522097.771,0.019579247
+47,Developmental Language Disorder,2011,3329623.274,0.010958468
+47,Developmental Language Disorder,2012,4438427.327,0.012940465
+47,Developmental Speech and Learning,2011,5414573.204,0.017193392
+47,Developmental Speech and Learning,2012,6782183.823,0.021055071
+47,Diabetes2,2011,2942563.363,0.006002818
+47,Diabetes2,2012,3088292.56,0.006443671
+47,Epilepsy and Epilepsy Complex,2011,1426736.285,0.003502478
+47,Epilepsy and Epilepsy Complex,2012,1442910.505,0.003516695
+47,Major Mental Health,2011,29725390.15,0.044703034
+47,Major Mental Health,2012,30752697.27,0.046661488
+47,Psoriasis,2011,1861178.113,0.004549666
+47,Psoriasis,2012,2065485.145,0.004514661
+47,Schizophrenia,2011,5088120.926,0.013346899
+47,Schizophrenia,2012,4874416.796,0.013114909
+47,Social Problems,2011,2327080.285,0.007214206
+47,Social Problems,2012,2521265.789,0.008268161
+47,Upper Respiratory Infectons,2011,168503830,0.402628249
+47,Upper Respiratory Infectons,2012,189520322.4,0.408739163
+48,Acute Bronchitis and Bronchiolitis,2011,154711745.4,0.129050654
+48,Acute Bronchitis and Bronchiolitis,2012,155769872.8,0.131319473
+48,Acute Respiratory Diagnoses - Moderate,2011,89565846.01,0.058485752
+48,Acute Respiratory Diagnoses - Moderate,2012,80220695.6,0.05736444
+48,Acute Skin Diagnoses,2011,137153371.5,0.098257772
+48,Acute Skin Diagnoses,2012,111405458.3,0.086998585
+48,Acute Stress and Anxiety,2011,21712189.07,0.012984978
+48,Acute Stress and Anxiety,2012,18499541.76,0.012493112
+48,ADHD,2011,120307716.7,0.076134029
+48,ADHD,2012,109871266.9,0.078831074
+48,Allergies,2011,215782813.4,0.168449408
+48,Allergies,2012,187354195.5,0.168808697
+48,Asthma,2011,183001914.3,0.118346271
+48,Asthma,2012,159780014.1,0.117802293
+48,Autism,2011,18980121.07,0.004135115
+48,Autism,2012,19356897.96,0.004410878
+48,BiPolar,2011,13219870.31,0.007522473
+48,BiPolar,2012,11264460.89,0.006941333
+48,Chronic Mental Health,2011,5739470.831,0.003662003
+48,Chronic Mental Health,2012,5127128.872,0.003533825
+48,Chronic Stress,2011,9402295.938,0.002882735
+48,Chronic Stress,2012,8492116.148,0.002718293
+48,Conduct and Behavior,2011,30130696.6,0.024548025
+48,Conduct and Behavior,2012,26997938.29,0.027064351
+48,Conjunctivitis and Eye Diagnoses,2011,0,0
+48,Conjunctivitis and Eye Diagnoses,2012,0,0
+48,Dental Diagnoses,2011,46179611.7,0.023806272
+48,Dental Diagnoses,2012,30551217.3,0.020147933
+48,Depression,2011,28436493.78,0.016103528
+48,Depression,2012,26089015.11,0.016658044
+48,Depressive and Other Psychoses,2011,21228562.16,0.013610744
+48,Depressive and Other Psychoses,2012,20703566.38,0.014570418
+48,Developmental Language Disorder,2011,62884403.73,0.031059767
+48,Developmental Language Disorder,2012,53791005.43,0.031420631
+48,Developmental Speech and Learning,2011,99176339.85,0.033404488
+48,Developmental Speech and Learning,2012,103058255.6,0.03897546
+48,Diabetes2,2011,8232825.259,0.003771164
+48,Diabetes2,2012,6408699.837,0.003718928
+48,Epilepsy and Epilepsy Complex,2011,11336567.41,0.002847137
+48,Epilepsy and Epilepsy Complex,2012,11107580.36,0.00286175
+48,Major Mental Health,2011,117777314.2,0.040290175
+48,Major Mental Health,2012,110115023,0.042286754
+48,Psoriasis,2011,24705306.31,0.025944372
+48,Psoriasis,2012,17940732.47,0.022526423
+48,Schizophrenia,2011,33479223.17,0.022691151
+48,Schizophrenia,2012,33526363.86,0.023395015
+48,Social Problems,2011,8383650.196,0.004238861
+48,Social Problems,2012,8333148.481,0.004386566
+48,Upper Respiratory Infectons,2011,570446194.5,0.432997962
+48,Upper Respiratory Infectons,2012,550723972.9,0.430861615
+49,Acute Bronchitis and Bronchiolitis,2011,5221355.891,0.093409789
+49,Acute Bronchitis and Bronchiolitis,2012,4754337.152,0.082233723
+49,Acute Respiratory Diagnoses - Moderate,2011,4172406.783,0.039490837
+49,Acute Respiratory Diagnoses - Moderate,2012,4626629.989,0.038617356
+49,Acute Skin Diagnoses,2011,4709487.578,0.080198663
+49,Acute Skin Diagnoses,2012,4955872.244,0.078856128
+49,Acute Stress and Anxiety,2011,2414524.709,0.026944124
+49,Acute Stress and Anxiety,2012,2769452.631,0.029918106
+49,ADHD,2011,5388970.13,0.056957094
+49,ADHD,2012,6441235.08,0.05799092
+49,Allergies,2011,3023659.604,0.060740044
+49,Allergies,2012,3038088.342,0.05809258
+49,Asthma,2011,4136821.232,0.056964254
+49,Asthma,2012,4404498.66,0.056350963
+49,Autism,2011,1384879.693,0.006320649
+49,Autism,2012,1508353.905,0.006351544
+49,BiPolar,2011,816334.3871,0.006159994
+49,BiPolar,2012,1108109.169,0.005727247
+49,Chronic Mental Health,2011,1439048.964,0.018007854
+49,Chronic Mental Health,2012,1697313.77,0.018520919
+49,Chronic Stress,2011,1231367.27,0.010215226
+49,Chronic Stress,2012,1276619.485,0.0112157
+49,Conduct and Behavior,2011,2021523.379,0.027299573
+49,Conduct and Behavior,2012,2435343.623,0.025762491
+49,Conjunctivitis and Eye Diagnoses,2011,0,0
+49,Conjunctivitis and Eye Diagnoses,2012,0,0
+49,Dental Diagnoses,2011,5987350.337,0.055568541
+49,Dental Diagnoses,2012,5384095.115,0.048551492
+49,Depression,2011,2740788.993,0.027120786
+49,Depression,2012,3461366.943,0.02921959
+49,Depressive and Other Psychoses,2011,1538769.976,0.017195729
+49,Depressive and Other Psychoses,2012,2353834.112,0.018980104
+49,Developmental Language Disorder,2011,451073.8612,0.005422122
+49,Developmental Language Disorder,2012,519915.3417,0.005832145
+49,Developmental Speech and Learning,2011,586024.9327,0.007180596
+49,Developmental Speech and Learning,2012,580866.4166,0.007278618
+49,Diabetes2,2011,527905.3014,0.003408461
+49,Diabetes2,2012,594509.2011,0.003048871
+49,Epilepsy and Epilepsy Complex,2011,311553.8237,0.00231046
+49,Epilepsy and Epilepsy Complex,2012,330545.2603,0.002140185
+49,Major Mental Health,2011,8026829.755,0.048198403
+49,Major Mental Health,2012,10653355.63,0.050597165
+49,Psoriasis,2011,270431.5858,0.0032666
+49,Psoriasis,2012,266276.8987,0.003003294
+49,Schizophrenia,2011,1383224.86,0.00972126
+49,Schizophrenia,2012,1930493.213,0.010826907
+49,Social Problems,2011,1690276.294,0.01918379
+49,Social Problems,2012,1684721.846,0.019144937
+49,Upper Respiratory Infectons,2011,20002576.53,0.366954177
+49,Upper Respiratory Infectons,2012,19898320.14,0.348331188
+50,Acute Bronchitis and Bronchiolitis,2011,1460716.665,0.055434933
+50,Acute Bronchitis and Bronchiolitis,2012,1552747.748,0.061577882
+50,Acute Respiratory Diagnoses - Moderate,2011,1601265.188,0.042255121
+50,Acute Respiratory Diagnoses - Moderate,2012,1555957.924,0.0418525
+50,Acute Skin Diagnoses,2011,2277564.555,0.075276568
+50,Acute Skin Diagnoses,2012,2334112.116,0.072460886
+50,Acute Stress and Anxiety,2011,3393877.571,0.049566163
+50,Acute Stress and Anxiety,2012,3804251.747,0.049775233
+50,ADHD,2011,9172382.597,0.101748603
+50,ADHD,2012,9730215.247,0.103924781
+50,Allergies,2011,1592409.242,0.056539165
+50,Allergies,2012,1557789.298,0.051131235
+50,Asthma,2011,3331023.144,0.087246077
+50,Asthma,2012,3220360.68,0.082294706
+50,Autism,2011,4455493.338,0.019071762
+50,Autism,2012,4607139.465,0.019795801
+50,BiPolar,2011,660882.0422,0.003972754
+50,BiPolar,2012,649575.7582,0.003815334
+50,Chronic Mental Health,2011,2669316.354,0.024647047
+50,Chronic Mental Health,2012,3136631.463,0.027079272
+50,Chronic Stress,2011,1307521.278,0.017382117
+50,Chronic Stress,2012,1488302.985,0.018410144
+50,Conduct and Behavior,2011,4000966.188,0.039879088
+50,Conduct and Behavior,2012,4019037.491,0.037491767
+50,Conjunctivitis and Eye Diagnoses,2011,0,0
+50,Conjunctivitis and Eye Diagnoses,2012,0,0
+50,Dental Diagnoses,2011,21106405.72,0.623053079
+50,Dental Diagnoses,2012,21828659.76,0.619228358
+50,Depression,2011,4112877.476,0.04495669
+50,Depression,2012,4581264.206,0.048152418
+50,Depressive and Other Psychoses,2011,1848311.93,0.016920633
+50,Depressive and Other Psychoses,2012,1935583.382,0.017558034
+50,Developmental Language Disorder,2011,1612598.729,0.02696721
+50,Developmental Language Disorder,2012,1745105.479,0.02637309
+50,Developmental Speech and Learning,2011,3766901.564,0.058371722
+50,Developmental Speech and Learning,2012,4022660.815,0.060607805
+50,Diabetes2,2011,385396.4618,0.004015052
+50,Diabetes2,2012,394584.3691,0.00401538
+50,Epilepsy and Epilepsy Complex,2011,185963.7347,0.002073203
+50,Epilepsy and Epilepsy Complex,2012,141970.5981,0.001247144
+50,Major Mental Health,2011,11180038.46,0.055420203
+50,Major Mental Health,2012,12082875.31,0.054908978
+50,Psoriasis,2011,173186.1041,0.003470788
+50,Psoriasis,2012,127615.7071,0.002757433
+50,Schizophrenia,2011,1866467.174,0.013848242
+50,Schizophrenia,2012,1857281.273,0.012799152
+50,Social Problems,2011,9691053.978,0.115777801
+50,Social Problems,2012,9440937.296,0.10804373
+50,Upper Respiratory Infectons,2011,8897061.438,0.312422268
+50,Upper Respiratory Infectons,2012,8854142.729,0.297218999
+51,Acute Bronchitis and Bronchiolitis,2011,14932852.08,0.089816587
+51,Acute Bronchitis and Bronchiolitis,2012,16607114.37,0.101460328
+51,Acute Respiratory Diagnoses - Moderate,2011,12231406.37,0.044625771
+51,Acute Respiratory Diagnoses - Moderate,2012,10416078.12,0.047923772
+51,Acute Skin Diagnoses,2011,23458897.35,0.111518865
+51,Acute Skin Diagnoses,2012,26720347.86,0.130000323
+51,Acute Stress and Anxiety,2011,6325858.888,0.013335057
+51,Acute Stress and Anxiety,2012,7269235.804,0.018271965
+51,ADHD,2011,47883467.92,0.09034184
+51,ADHD,2012,42954959.98,0.095513849
+51,Allergies,2011,24593693.57,0.137828285
+51,Allergies,2012,26897131.36,0.162938654
+51,Asthma,2011,27478337.76,0.119790774
+51,Asthma,2012,25042715.14,0.129946548
+51,Autism,2011,5637844.059,0.008580933
+51,Autism,2012,7203176.412,0.010475481
+51,BiPolar,2011,6019073.231,0.007025359
+51,BiPolar,2012,5301643.906,0.006669831
+51,Chronic Mental Health,2011,4657042.596,0.006457627
+51,Chronic Mental Health,2012,4551838.146,0.006763154
+51,Chronic Stress,2011,3097011.658,0.005154381
+51,Chronic Stress,2012,3686800.298,0.005886421
+51,Conduct and Behavior,2011,30973658.07,0.042376758
+51,Conduct and Behavior,2012,23183318.7,0.03699992
+51,Conjunctivitis and Eye Diagnoses,2011,0,0
+51,Conjunctivitis and Eye Diagnoses,2012,0,0
+51,Dental Diagnoses,2011,5495149.399,0.019126754
+51,Dental Diagnoses,2012,5686048.697,0.02411471
+51,Depression,2011,15077607.96,0.021734254
+51,Depression,2012,13885255.07,0.023918618
+51,Depressive and Other Psychoses,2011,12349721.98,0.017039813
+51,Depressive and Other Psychoses,2012,13045083.86,0.018989169
+51,Developmental Language Disorder,2011,7225242.957,0.016758632
+51,Developmental Language Disorder,2012,6323650.533,0.017151548
+51,Developmental Speech and Learning,2011,6416567.071,0.018252923
+51,Developmental Speech and Learning,2012,6332777.191,0.02037232
+51,Diabetes2,2011,1629399.248,0.003930261
+51,Diabetes2,2012,1491172.671,0.004118761
+51,Epilepsy and Epilepsy Complex,2011,992255.2372,0.002659859
+51,Epilepsy and Epilepsy Complex,2012,1591224.424,0.003087548
+51,Major Mental Health,2011,75102179.56,0.050331525
+51,Major Mental Health,2012,60573889.37,0.048052838
+51,Psoriasis,2011,1013526.836,0.004610825
+51,Psoriasis,2012,1106754.192,0.005353571
+51,Schizophrenia,2011,9306557.81,0.013048147
+51,Schizophrenia,2012,9390416.385,0.013606624
+51,Social Problems,2011,3276132.849,0.007792068
+51,Social Problems,2012,3133997.428,0.008906427
+51,Upper Respiratory Infectons,2011,63374220.42,0.328176363
+51,Upper Respiratory Infectons,2012,66097480.89,0.369309505
+53,Acute Bronchitis and Bronchiolitis,2011,15999853.41,0.073757372
+53,Acute Bronchitis and Bronchiolitis,2012,15399857.1,0.071134107
+53,Acute Respiratory Diagnoses - Moderate,2011,7600376.231,0.025039915
+53,Acute Respiratory Diagnoses - Moderate,2012,7488411.885,0.024047658
+53,Acute Skin Diagnoses,2011,25610126.88,0.09555058
+53,Acute Skin Diagnoses,2012,26074046.4,0.095962196
+53,Acute Stress and Anxiety,2011,6192083.951,0.024574066
+53,Acute Stress and Anxiety,2012,7096321.495,0.028506467
+53,ADHD,2011,12937148.9,0.052579613
+53,ADHD,2012,14253530.57,0.054748679
+53,Allergies,2011,17121651.67,0.084581497
+53,Allergies,2012,17349269.02,0.085257729
+53,Asthma,2011,14486767.93,0.06615791
+53,Asthma,2012,14518885.02,0.066195303
+53,Autism,2011,2608534.759,0.004905581
+53,Autism,2012,3350845.449,0.005466064
+53,BiPolar,2011,869171.818,0.002748907
+53,BiPolar,2012,985784.7553,0.003261807
+53,Chronic Mental Health,2011,2154009.66,0.008870376
+53,Chronic Mental Health,2012,2279517.11,0.009398849
+53,Chronic Stress,2011,2611975.427,0.010619639
+53,Chronic Stress,2012,3063480.524,0.01298766
+53,Conduct and Behavior,2011,5185087.549,0.023206675
+53,Conduct and Behavior,2012,6242306.981,0.025558966
+53,Conjunctivitis and Eye Diagnoses,2011,0,0
+53,Conjunctivitis and Eye Diagnoses,2012,0,0
+53,Dental Diagnoses,2011,15368998.14,0.034483031
+53,Dental Diagnoses,2012,16473202.8,0.03634126
+53,Depression,2011,6524713.327,0.023337157
+53,Depression,2012,7365623.196,0.025546507
+53,Depressive and Other Psychoses,2011,3010190.184,0.013534003
+53,Depressive and Other Psychoses,2012,3887223.6,0.015695044
+53,Developmental Language Disorder,2011,2816504.16,0.010384162
+53,Developmental Language Disorder,2012,3011334.769,0.010215648
+53,Developmental Speech and Learning,2011,4549708.888,0.017147897
+53,Developmental Speech and Learning,2012,5017935.2,0.01764452
+53,Diabetes2,2011,1072518.06,0.003201397
+53,Diabetes2,2012,994001.9386,0.003051733
+53,Epilepsy and Epilepsy Complex,2011,1410029.213,0.002317173
+53,Epilepsy and Epilepsy Complex,2012,1330554.073,0.002187173
+53,Major Mental Health,2011,15993374.56,0.030913537
+53,Major Mental Health,2012,17344412.49,0.033166493
+53,Psoriasis,2011,1038920.902,0.004330914
+53,Psoriasis,2012,1060620.64,0.004359297
+53,Schizophrenia,2011,2815085.081,0.006389954
+53,Schizophrenia,2012,2890732.801,0.006463192
+53,Social Problems,2011,1393484.414,0.006017949
+53,Social Problems,2012,1687567.361,0.00681885
+53,Upper Respiratory Infectons,2011,73194721.21,0.284411077
+53,Upper Respiratory Infectons,2012,72551406.1,0.278774054
+54,Acute Bronchitis and Bronchiolitis,2011,2580049.461,0.028332154
+54,Acute Bronchitis and Bronchiolitis,2012,2569212.208,0.025357338
+54,Acute Respiratory Diagnoses - Moderate,2011,6707671.092,0.031631773
+54,Acute Respiratory Diagnoses - Moderate,2012,6105989.732,0.028049985
+54,Acute Skin Diagnoses,2011,2757257.1,0.028779698
+54,Acute Skin Diagnoses,2012,3274229.765,0.027279116
+54,Acute Stress and Anxiety,2011,1772320.946,0.015377242
+54,Acute Stress and Anxiety,2012,2300644.414,0.017038375
+54,ADHD,2011,16956567.53,0.109886514
+54,ADHD,2012,20028655.26,0.112071775
+54,Allergies,2011,3374420.966,0.040104693
+54,Allergies,2012,3933669.996,0.03892685
+54,Asthma,2011,15110048.07,0.066050598
+54,Asthma,2012,14573286.52,0.062979354
+54,Autism,2011,3481501.099,0.008979319
+54,Autism,2012,4247713.042,0.009368135
+54,BiPolar,2011,1407528.641,0.012327509
+54,BiPolar,2012,2559176.423,0.011057438
+54,Chronic Mental Health,2011,849983.2532,0.008502255
+54,Chronic Mental Health,2012,1360537.666,0.008295245
+54,Chronic Stress,2011,884927.3006,0.007235686
+54,Chronic Stress,2012,1114660.14,0.007885479
+54,Conduct and Behavior,2011,6379481.794,0.047553245
+54,Conduct and Behavior,2012,8635210.941,0.048150342
+54,Conjunctivitis and Eye Diagnoses,2011,0,0
+54,Conjunctivitis and Eye Diagnoses,2012,0,0
+54,Dental Diagnoses,2011,1141928.391,0.005999481
+54,Dental Diagnoses,2012,2206104.319,0.010161351
+54,Depression,2011,4072005.221,0.029396047
+54,Depression,2012,6018276.058,0.030389678
+54,Depressive and Other Psychoses,2011,2129617.699,0.01893547
+54,Depressive and Other Psychoses,2012,3978449.421,0.021112366
+54,Developmental Language Disorder,2011,5260390.436,0.035306961
+54,Developmental Language Disorder,2012,5010962.872,0.033681462
+54,Developmental Speech and Learning,2011,15259244.24,0.079587487
+54,Developmental Speech and Learning,2012,14888533.05,0.079186666
+54,Diabetes2,2011,1458045.183,0.005057799
+54,Diabetes2,2012,1579910.69,0.005255237
+54,Epilepsy and Epilepsy Complex,2011,392682.3269,0.001778244
+54,Epilepsy and Epilepsy Complex,2012,470910.4707,0.001735987
+54,Major Mental Health,2011,15943807.13,0.065868028
+54,Major Mental Health,2012,23072914.01,0.067860493
+54,Psoriasis,2011,818610.2802,0.00450614
+54,Psoriasis,2012,842147.9396,0.00434695
+54,Schizophrenia,2011,3194660.233,0.026230281
+54,Schizophrenia,2012,4979586.551,0.025547827
+54,Social Problems,2011,2135717.709,0.018291899
+54,Social Problems,2012,2294942.714,0.017436365
+54,Upper Respiratory Infectons,2011,9075544.324,0.100862039
+54,Upper Respiratory Infectons,2012,8838880.943,0.086534027
+55,Acute Bronchitis and Bronchiolitis,2011,6266503.124,0.063078983
+55,Acute Bronchitis and Bronchiolitis,2012,8242711.483,0.062556114
+55,Acute Respiratory Diagnoses - Moderate,2011,6748375.609,0.03881459
+55,Acute Respiratory Diagnoses - Moderate,2012,7566572.098,0.037728908
+55,Acute Skin Diagnoses,2011,12702221.62,0.111413824
+55,Acute Skin Diagnoses,2012,15547132.92,0.10854724
+55,Acute Stress and Anxiety,2011,2977275.236,0.021109859
+55,Acute Stress and Anxiety,2012,3787744.952,0.023482656
+55,ADHD,2011,17175868.09,0.086159384
+55,ADHD,2012,20596657.36,0.088629436
+55,Allergies,2011,8281113.768,0.080225241
+55,Allergies,2012,10315137.78,0.081117476
+55,Asthma,2011,12574674.19,0.10255341
+55,Asthma,2012,14995088.87,0.103558496
+55,Autism,2011,1616279.532,0.006388858
+55,Autism,2012,1946740.623,0.007302238
+55,BiPolar,2011,1748148.497,0.005771345
+55,BiPolar,2012,1806537.51,0.005472219
+55,Chronic Mental Health,2011,1708598.989,0.007692391
+55,Chronic Mental Health,2012,2037301.408,0.008917859
+55,Chronic Stress,2011,1287171.772,0.007733667
+55,Chronic Stress,2012,1622792.651,0.009234227
+55,Conduct and Behavior,2011,5826554.274,0.033955023
+55,Conduct and Behavior,2012,6604030.096,0.034353738
+55,Conjunctivitis and Eye Diagnoses,2011,0,0
+55,Conjunctivitis and Eye Diagnoses,2012,0,0
+55,Dental Diagnoses,2011,5332242.545,0.032237029
+55,Dental Diagnoses,2012,7150780.871,0.035012586
+55,Depression,2011,4881141.655,0.025238012
+55,Depression,2012,5829650.727,0.025472596
+55,Depressive and Other Psychoses,2011,4020937.852,0.019950705
+55,Depressive and Other Psychoses,2012,4824373.719,0.02019851
+55,Developmental Language Disorder,2011,1770334.539,0.010695264
+55,Developmental Language Disorder,2012,2056991.367,0.010594165
+55,Developmental Speech and Learning,2011,2270200.619,0.016060694
+55,Developmental Speech and Learning,2012,2565654.98,0.015807225
+55,Diabetes2,2011,986077.6717,0.003381724
+55,Diabetes2,2012,1099210.75,0.003315655
+55,Epilepsy and Epilepsy Complex,2011,854678.7702,0.002804944
+55,Epilepsy and Epilepsy Complex,2012,988022.9515,0.002968563
+55,Major Mental Health,2011,17206291.58,0.040888193
+55,Major Mental Health,2012,19804764.97,0.042946938
+55,Psoriasis,2011,457022.3222,0.003286964
+55,Psoriasis,2012,507820.3484,0.003119236
+55,Schizophrenia,2011,4145363.988,0.014584719
+55,Schizophrenia,2012,4698678.815,0.013836273
+55,Social Problems,2011,8054713.618,0.028120333
+55,Social Problems,2012,8858501.586,0.029205222
+55,Upper Respiratory Infectons,2011,33254486.61,0.312769623
+55,Upper Respiratory Infectons,2012,40070321.86,0.292990622
+56,Acute Bronchitis and Bronchiolitis,2011,1846076.777,0.107619361
+56,Acute Bronchitis and Bronchiolitis,2012,1841224.867,0.105509232
+56,Acute Respiratory Diagnoses - Moderate,2011,1326324.571,0.043918003
+56,Acute Respiratory Diagnoses - Moderate,2012,1336830.037,0.04247767
+56,Acute Skin Diagnoses,2011,1253622.462,0.070850896
+56,Acute Skin Diagnoses,2012,1339965.731,0.063704832
+56,Acute Stress and Anxiety,2011,500313.8094,0.014347923
+56,Acute Stress and Anxiety,2012,571237.8483,0.016049625
+56,ADHD,2011,2444962.757,0.079051501
+56,ADHD,2012,3084285.57,0.085890632
+56,Allergies,2011,1367554.026,0.080020823
+56,Allergies,2012,1455227.868,0.080957391
+56,Asthma,2011,1879604.736,0.08632822
+56,Asthma,2012,2016996.056,0.081515324
+56,Autism,2011,540703.4113,0.00623094
+56,Autism,2012,541659.237,0.006215189
+56,BiPolar,2011,344465.8195,0.009006653
+56,BiPolar,2012,472114.9307,0.008172427
+56,Chronic Mental Health,2011,416563.2051,0.01135484
+56,Chronic Mental Health,2012,594917.892,0.012636065
+56,Chronic Stress,2011,250064.2944,0.005225541
+56,Chronic Stress,2012,294992.7999,0.00605524
+56,Conduct and Behavior,2011,1014239.252,0.032122766
+56,Conduct and Behavior,2012,1483930.922,0.03126757
+56,Conjunctivitis and Eye Diagnoses,2011,0,0
+56,Conjunctivitis and Eye Diagnoses,2012,0,0
+56,Dental Diagnoses,2011,1713889.224,0.057958264
+56,Dental Diagnoses,2012,1809068.011,0.05856886
+56,Depression,2011,1600822.868,0.04121316
+56,Depression,2012,2555809.782,0.041360696
+56,Depressive and Other Psychoses,2011,965129.3422,0.028450489
+56,Depressive and Other Psychoses,2012,1661252.39,0.030597026
+56,Developmental Language Disorder,2011,130370.5609,0.006207255
+56,Developmental Language Disorder,2012,174451.7694,0.005539323
+56,Developmental Speech and Learning,2011,182428.3316,0.007920712
+56,Developmental Speech and Learning,2012,175491.959,0.005737897
+56,Diabetes2,2011,149420.0359,0.003539279
+56,Diabetes2,2012,214349.3366,0.003494502
+56,Epilepsy and Epilepsy Complex,2011,162345.1356,0.00290988
+56,Epilepsy and Epilepsy Complex,2012,176677.1253,0.002123118
+56,Major Mental Health,2011,3980949.307,0.065970656
+56,Major Mental Health,2012,5938245.427,0.069043948
+56,Psoriasis,2011,119891.0091,0.005553622
+56,Psoriasis,2012,51237.47363,0.002164247
+56,Schizophrenia,2011,618741.5548,0.014011662
+56,Schizophrenia,2012,1007735.486,0.014100233
+56,Social Problems,2011,382407.345,0.013539102
+56,Social Problems,2012,411892.5143,0.010566265
+56,Upper Respiratory Infectons,2011,6646215.924,0.404466077
+56,Upper Respiratory Infectons,2012,6594929.29,0.390593638
