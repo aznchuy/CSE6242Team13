@@ -37,7 +37,8 @@ var selectedDisease = "Acute Bronchitis and Bronchiolitis";
 var diseaseCat = ["Acute Bronchitis and Bronchiolitis",	"Acute Respiratory Diagnoses - Moderate",	"Acute Skin Diagnoses",	"Acute Stress and Anxiety",	"ADHD",	"Allergies",	"Asthma",	"Autism",	"BiPolar",	"Chronic Mental Health",	"Chronic Stress",	"Conduct and Behavior",	"Conjunctivitis and Eye Diagnoses",	"Dental Diagnoses",	"Depression",	"Depressive and Other Psychoses",	"Developmental Language Disorder",	"Developmental Speech and Learning",	"Diabetes2",	"Epilepsy and Epilepsy Complex",	"Major Mental Health",	"Psoriasis",	"Schizophrenia",	"Social Problems",	"Upper Respiratory Infectons"];
 
 ///call graph to initilize
-d3.queue().defer(d3.json, "us.json").defer(d3.csv, "final_state.csv").defer(d3.csv, "final_county.csv").await(showMap);
+d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv").await(showMap);
+
 
 
 ///first dropdown
