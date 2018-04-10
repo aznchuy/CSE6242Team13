@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<style>
+.screen {
+  width: 960px;
+  text-align: center;
+}
+.tip {
+  text-align: left;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 1px;
+}
+</style>
+<body>
+  <div class="screen"><h3>Disease Prevalence by State</h3><h3>&nbsp;</h3></div>
+  <div id = "YearDropdown"></div>
+  <div id = "DiseaseDropdown"></div>
+  <div id = "graph"></div>
+<script>
+
+var width = 1100,
+    height = 500;
+
+
+///initialize
+var svg = d3.select("#graph").append("svg").attr("width", width).attr("height", height);
+
+var selectedYear = "2011";
+var YearNum = ["2011","2012"];
+var selectedDisease = "Acute Bronchitis and Bronchiolitis";
+var diseaseCat = ["Acute Bronchitis and Bronchiolitis",	"Acute Respiratory Diagnoses - Moderate",	"Acute Skin Diagnoses",	"Acute Stress and Anxiety",	"ADHD",	"Allergies",	"Asthma",	"Autism",	"BiPolar",	"Chronic Mental Health",	"Chronic Stress",	"Conduct and Behavior",	"Conjunctivitis and Eye Diagnoses",	"Dental Diagnoses",	"Depression",	"Depressive and Other Psychoses",	"Developmental Language Disorder",	"Developmental Speech and Learning",	"Diabetes2",	"Epilepsy and Epilepsy Complex",	"Major Mental Health",	"Psoriasis",	"Schizophrenia",	"Social Problems",	"Upper Respiratory Infectons"];
+
+///call graph to initilize
+d3.queue().defer(d3.json, "us.json").defer(d3.csv, "final_state.csv").defer(d3.csv, "final_county.csv").await(showMap);
+
+
+///first dropdown
+var select = d3.select('#YearDropdown')
+  .append("p")
+  .attr('style', 'font-weight: 600;')
+  .style("font", "16px times")
+  .text("Year ")
+  .append('select')
+    .attr('class','select')
+    .on('change',onchange)
+
+var options = select
+  .selectAll('option')
+  .data(YearNum).enter()
+  .append('option')
+    .text(function (d) { return d; });
+
+function onchange() {
+  selectedYear = d3.event.target.value
+  d3.queue().defer(d3.json, "us.json").defer(d3.csv, "final_state.csv").defer(d3.csv, "final_county.csv").await(showMap);
+};
+
+
+///second dropdown
+var select2 = d3.select('#DiseaseDropdown')
+  .append("p")
+  .attr('style', 'font-weight: 600;')
+  .style("font", "16px times")
+  .text("Disease ")
+  .append('select')
+    .attr('class','select')
+    .on('change',onchange2)
+
+var options2 = select2
+  .selectAll('option')
+  .data(diseaseCat).enter()
+  .append('option')
+    .text(function (d) { return d; });
+
+function onchange2() {
+  selectedDisease = d3.event.target.value
+  d3.queue().defer(d3.json, "us.json").defer(d3.csv, "final_state.csv").defer(d3.csv, "final_county.csv").await(showMap);
+};
+
+
+///main graph drawing
+
+function showMap(error, us, final_state, final_county) {
+
+  d3.select("svg").remove();
+  var svg = d3.select("div").append("svg").attr("width", width).attr("height", height);
+  var filtered_state = final_state.filter(function(d) { return +d.Year == selectedYear && d.Disease == selectedDisease ; });
+
+  var byID = {}
+  filtered_state.forEach(function(d){byID[+d.id]=+d.Weighted_Prevalence})
+  var filtered_county = final_county.filter(function(d) { return +d.Year == selectedYear && d.Disease == selectedDisease ; });
+  var colorscale = d3.scale.linear().domain([0, d3.max(filtered_state, function(d) { return +d.Weighted_Prevalence; })]).range(["white", "steelblue"]);
+  var tip = d3.tip().attr('class', 'tip').offset([0, 100]).html(function(d) { return getCounty(filtered_county, +d.id); });
+  svg.call(tip);
+
+  svg.append("g")
+     .attr("class", "states")
+     .selectAll("path")
+     .data(topojson.feature(us, us.objects.states).features)
+     .enter()
+     .append("path")
+     .attr("d", d3.geo.path())
+     .style("fill", function(d) { return colorscale(byID[+d.id])})
+     .style("stroke","black")
+     .on('mouseover', tip.show)
+     .on('mouseout', tip.hide);
+
+    var legend = svg.selectAll(".legend")
+      .data(colorscale.ticks(15).slice(1).reverse())
+      .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(" + (width - 140) + "," + (75 + i * 20) + ")"; });
+    legend.append("rect").attr("width", 20).attr("height", 20).style("fill", colorscale);
+    legend.append("text").attr("x", 26).attr("y", 10).text(function (d) { return  d; });
+    svg.append("text").attr("class", "label").attr("x", width - 140).attr("y", 55).text("Disease Prevalence");
+}
+
+
+///tooltip contents
+
+function getCounty(filtered_county, id) {
+  return filtered_county.filter(function(d) { return +d.id == id; })
+                    .sort(function(a, b) { return +a.Prevalence < +b.Prevalence }).slice(0,5)
+                    .map(function(e) { return "<span>" + e.County + "(Prevalence: " + d3.format(".4f")(e.Prevalence) + ", Cost: $"+ d3.format(".2s")(e.Cost) + ")</span>"}).join("<br>");
+
+}
+
+</script>
+</body>
+</html>
