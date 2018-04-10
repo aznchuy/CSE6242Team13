@@ -59,7 +59,8 @@ var options = select
 
 function onchange() {
   selectedYear = d3.event.target.value
-  d3.queue().defer(d3.json, "us.json").defer(d3.csv, "final_state.csv").defer(d3.csv, "final_county.csv").await(showMap);
+  d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv").await(showMap);
+
 };
 
 
@@ -81,7 +82,7 @@ var options2 = select2
 
 function onchange2() {
   selectedDisease = d3.event.target.value
-  d3.queue().defer(d3.json, "us.json").defer(d3.csv, "final_state.csv").defer(d3.csv, "final_county.csv").await(showMap);
+  d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv").await(showMap);
 };
 
 
