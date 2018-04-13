@@ -110,8 +110,16 @@ function showMap(error, us, final_state, final_county) {
      .attr("d", d3.geo.path())
      .style("fill", function(d) { return colorscale(byID[+d.id])})
      .style("stroke","black")
-     .on('mouseover', tip.show)
-     .on('mouseout', tip.hide);
+     .on('mouseover', function(d){
+      tip.show(d);
+      d3.select(this).style("cursor", "pointer"); 
+     })
+     .on('mouseout', function(d){
+      tip.hide(d);
+     })
+     .on('click', function(d) {
+      d3.select(this).style("fill", "yellow");
+    });
 
     var legend = svg.selectAll(".legend")
       .data(colorscale.ticks(15).slice(1).reverse())
