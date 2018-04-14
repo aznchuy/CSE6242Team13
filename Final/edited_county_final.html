@@ -88,6 +88,7 @@ function onchange2() {
             .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv")
             .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv")
     .await(showMap);
+  selectedStates = [];
 };
 
 
@@ -98,8 +99,9 @@ function showMap(error, us, final_state, final_county) {
   d3.select("svg").remove();
   var svg = d3.select("div").append("svg").attr("width", width).attr("height", height);
 
-  //var filtered_state = final_state.filter(function(d) { return +d.Year == selectedYear && d.Disease == selectedDisease ; });
-  //state not being used
+  var filtered_state = final_state.filter(function(d) { 
+    return d.Disease == selectedDisease ; 
+  });
 
   var filtered_county = final_county.filter(function(d) { return +d.Year == selectedYear && d.Disease == selectedDisease ; });
   var byID = {}
@@ -135,7 +137,7 @@ function showMap(error, us, final_state, final_county) {
 
      .on('mouseover', function(d){
       tip.show(d);
-      //d3.select(this).style("cursor", "pointer");
+      d3.select(this).style("cursor", "pointer");
       d3.select(this).style("opacity", 0.5)
      })
      .on('mouseout', function(d){
@@ -146,6 +148,8 @@ function showMap(error, us, final_state, final_county) {
       // d3.select(this).style("stroke", "yellow");
       addState(getState(filtered_county, d.id))
       console.log(selectedStates);
+      console.log(getStateData(filtered_state, getState(filtered_county, d.id)[0]))
+      //draw line graph using state data
     });
 
     svg.append("g")
@@ -214,6 +218,10 @@ function addState(stateId){
       selectedStates.push(stateId[0]);
     }
   }
+}
+
+function getStateData(filtered_state, stateId){
+  return filtered_state.filter(function(d) {return +d.id == stateId;})
 }
 
 </script>
