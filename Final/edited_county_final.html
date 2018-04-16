@@ -134,7 +134,7 @@ function showMap(error, us, final_state, final_county) {
   var byID = {}
   filtered_county.forEach(function(d){byID[+d.County]=+d.Prevalence})
   var colorscale = d3.scale.linear().domain([0, d3.max(filtered_county, function(d) { return +d.Prevalence; })]).nice(9).range(["ghostwhite", "Blue"]);
-  var tip = d3.tip().attr('class', 'tip').offset([0, 100]).html(function(d) { return "Top 5 Counties: <br>" + getCounty(filtered_county, +d.id); });
+  var tip = d3.tip().attr('class', 'tip').offset([0, 100]).html(function(d) { return d.id + " Prevalence: " + d3.format(".4f")(getPrevalence(filtered_county,d.id)) + " Cost: $" + d3.format(".2s")(getCost(filtered_county,d.id)) + " <br> Top 5 Counties by Prevalence: <br>" + getCounty(filtered_county, +d.id); });
 
   svg.call(tip);
 
@@ -401,6 +401,22 @@ function getCounty(filtered_county, id) {
                     .sort(function(a, b) { return d3.descending(+a.Prevalence, +b.Prevalence) }).slice(0,5)
                     .map(function(e) { return "<span> ID: " + e.County + ", Prevalence: " + d3.format(".4f")(e.Prevalence) + ", Cost: $"+ d3.format(".2s")(e.Cost) + "</span>"}).join("<br>");
 
+}
+
+function getPrevalence(filtered_county, id) {
+  for(i in filtered_county){
+    if(+filtered_county[i]["County"] == +id){
+      return +filtered_county[i]["Prevalence"]
+    }
+  }
+}
+
+function getCost(filtered_county, id) {
+  for(i in filtered_county){
+    if(filtered_county[i]["County"] == id){
+      return +filtered_county[i]["Cost"]
+    }
+  }
 }
 
 function getState(filtered_county, id){
