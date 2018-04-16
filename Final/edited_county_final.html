@@ -334,41 +334,41 @@ function showMap(error, us, final_state, final_county) {
 
           var valueline = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(costDataset[0]));
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[0]));
 
           var xAxis = d3.svg.axis().scale(xscale).orient("bottom").ticks(5).tickFormat(d3.format("d"));
-          svg.append("g").attr("class", "axis").attr("transform", "translate(50,290)").call(xAxis);
+          svg.append("g").attr("class", "axis").attr("transform", "translate(100,290)").call(xAxis);
           svg.append("text").attr("x", 195).attr("y", 325).text("Year");
           
           var yAxis = d3.svg.axis().scale(yscale).orient("left").ticks(6);
-          svg.append("g").attr("class", "axis").attr("transform", "translate(50,130)").call(yAxis);
+          svg.append("g").attr("class", "axis").attr("transform", "translate(100,130)").call(yAxis);
           svg.append("text").attr("x", 15).attr("y", 120).text("Cost");
 
         }
         if(costDataset.length > 1){
           // var valueline2 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(costDataset[1]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[1]))
             .style("stroke", "red")
         }
         if(costDataset.length > 2){
           // var valueline3 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(costDataset[2]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[2]))
             .style("stroke", "green");
 
         }
         if(costDataset.length > 3){
           // var valueline4 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(costDataset[3]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[3]))
             .style("stroke", "orange");
 
         }
         if(costDataset.length == 5){
           // var valueline5 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(costDataset[4]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[4]))
             .style("stroke", "purple");
 
         }
