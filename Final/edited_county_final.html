@@ -174,8 +174,6 @@ function showMap(error, us, final_state, final_county) {
      .on('click', function(d) {
       // d3.select(this).style("stroke", "yellow");
       addState(getState(filtered_county, d.id))
-      console.log(selectedStates);
-      // console.log(getStateData(filtered_state, getState(filtered_county, d.id)[0]))
       lineChart(selectedStates);
       //draw line graph using state data
     });
@@ -190,78 +188,39 @@ function showMap(error, us, final_state, final_county) {
        .attr("d", d3.geo.path())
        .style("fill", "none")
        .attr("stroke", d3.rgb("#525252"))
-       .attr("stroke-width", 0.35)
-/*
-       .on('mouseover', function(d){
-        tip2.show(d);
-}
-       )
-       .on('mouseout', function(d){
-         tip2.hide(d);
-       })
-*/
+       .attr("stroke-width", 0.35);
 
 
 
 
-var legend = svg.selectAll(".legend")
-  .data(colorscale.ticks(9).slice(1).reverse())
-  .enter().append("g")
-  .attr("transform", function(d, i) { return "translate(" + (0) + "," + (75 + i * 23) + ")"; });
-legend.append("rect").attr("width", 20).attr("height", 20).style("fill", colorscale).style("stroke", "#777").style("stroke-width", 0.5);
-legend.append("text").attr("x", 26).attr("y", 15).text(function (d) { return  d; });
-svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Prevalence").style("font-weight", "bold");
-
-
-    // var margin = {top: 30, right: 20, bottom: 60, left: 50},
-    //     lineWidth = 400 - margin.left - margin.right,
-    //     lineHeight = 150 - margin.top - margin.bottom;
-
-
-    // var x = d3.scale.linear().range([0, lineWidth]);
-    // var y = d3.scale.linear().range([lineHeight, 0]);
-
-    // var xAxis = d3.svg.axis().scale(x)
-    //     .orient("bottom").ticks(5);
-
-    // var yAxis = d3.svg.axis().scale(y)
-    //     .orient("left").ticks(5);
-
-
-    // var valueline = d3.svg.line()
-    //     .x(function(d) { return x(d.date); })
-    //     .y(function(d) { return y(d.value); });
-
-    // var valueline2 = d3.svg.line()
-    //     .x(function(d) { return x(d.date); })
-    //     .y(function(d) { return y(d.value2); });
-
-    // function lineChart(selectedStates){
-    //   stateData = []
-    //   for(state in selectedStates){
-    //     stateData.push(getStateData(filtered_state, selectedStates[state]))
-    //   }
-    //   console.log(stateData)
-    // }
+    var legend = svg.selectAll(".legend")
+      .data(colorscale.ticks(9).slice(1).reverse())
+      .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(" + (0) + "," + (75 + i * 23) + ")"; });
+    legend.append("rect").attr("width", 20).attr("height", 20).style("fill", colorscale).style("stroke", "#777").style("stroke-width", 0.5);
+    legend.append("text").attr("x", 26).attr("y", 15).text(function (d) { return  d; });
+    svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Prevalence").style("font-weight", "bold");
 
     function lineChart(selectedStates) {
         stateData = []
         for(state in selectedStates){
           stateData.push(getStateData(filtered_state, selectedStates[state]))
         }
-        // console.log(stateData)
         prevalenceDataset = []
         costDataset = []
+        years = []
         for(data in stateData){
-          // console.log(stateData[data])
           statePrevalence = []
           stateCost = []
+          year = []
           for(d in stateData[data]){
             statePrevalence.push(stateData[data][d]["Weighted_Prevalence"])
             stateCost.push(stateData[data][d]["Summed_Cost"])
+            year.push(stateData[data][d]["Year"])
           }
           prevalenceDataset.push(statePrevalence)
           costDataset.push(stateCost)
+          years.push(year)
         }
 
         findMaxMin(prevalenceDataset)
@@ -269,19 +228,8 @@ svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Preva
         d3.select("svg.chart").remove();
         if(prevalenceDataset.length != 0){
           var svg = d3.select("#prevalence").append("svg").attr("class","chart").attr("width", 250).attr("height", 250).attr("transform", "translate(950,-350)");
-          var xscale = d3.scale.linear().domain([2011,2012]).range([0,160]);
+          var xscale = d3.scale.linear().domain([+years[0][0],+years[0][years[0].length - 1]]).range([0,160]);
           var yscale = d3.scale.linear().domain([min, max]).range([160, 0]);
-
-          // var select = d3.select('#YearDropdown')
-          //   .append("p")
-          //   .attr('style', 'font-weight: 600;')
-          //   .style("font", "16px times")
-          //   .text("Year ")
-          //   .append('select')
-          //     .attr('class','select')
-          //     .on('change', onchange)
-
-
           var valueline = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[0]));
@@ -296,32 +244,20 @@ svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Preva
 
         }
         if(prevalenceDataset.length > 1){
-          console.log("prevalenceDataset has at least 2")
-          // var valueline2 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
-
           svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[1]))
             .style("stroke", "red")
         }
         if(prevalenceDataset.length > 2){
-          console.log("prevalenceDataset has at least 3")
-          // var valueline3 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
-
           svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[2]))
             .style("stroke", "green");
 
         }
         if(prevalenceDataset.length > 3){
-          console.log("prevalenceDataset has at least 4")
-          // var valueline4 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
-
           svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[3]))
             .style("stroke", "orange");
 
         }
         if(prevalenceDataset.length == 5){
-          console.log("prevalenceDataset has 5")
-          // var valueline5 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
-
           svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[4]))
             .style("stroke", "purple");
 
@@ -329,12 +265,6 @@ svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Preva
 
 
         findMaxMin(costDataset)
-
-        console.log(costDataset)
-        console.log('min')
-        console.log(min)
-        console.log('max')
-        console.log(max)
 
         d3.select("svg.costchart").remove();
         if(costDataset.length != 0){
@@ -356,27 +286,23 @@ svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Preva
 
         }
         if(costDataset.length > 1){
-          // var valueline2 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[1]))
             .style("stroke", "red")
         }
         if(costDataset.length > 2){
-          // var valueline3 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[2]))
             .style("stroke", "green");
 
         }
         if(costDataset.length > 3){
-          // var valueline4 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[3]))
             .style("stroke", "orange");
 
         }
         if(costDataset.length == 5){
-          // var valueline5 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[4]))
             .style("stroke", "purple");
@@ -446,14 +372,12 @@ function getStateData(filtered_state, stateId){
 }
 
 function findMaxMin(twoDArray){
-  console.log(twoDArray)
   max = 0
   min = 999999999
   for(i in twoDArray){
     for(j in twoDArray[i]){
       if(+twoDArray[i][j] > +max){
         max = +twoDArray[i][j]
-        console.log(max)
       }
       if(+twoDArray[i][j] < +min){
         min = +twoDArray[i][j]
