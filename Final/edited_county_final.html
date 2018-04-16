@@ -25,7 +25,7 @@
   font-family: sans-serif;
   font-size: 9px;
 }
-.line { 
+.line {
   stroke: lightblue;
   stroke-width: 2;
   fill: none;
@@ -116,8 +116,8 @@ function showMap(error, us, final_state, final_county) {
   d3.select("svg").remove();
   var svg = d3.select("div").append("svg").attr("width", width).attr("height", height);
 
-  var filtered_state = final_state.filter(function(d) { 
-    return d.Disease == selectedDisease ; 
+  var filtered_state = final_state.filter(function(d) {
+    return d.Disease == selectedDisease ;
   });
 
   var filtered_county = final_county.filter(function(d) { return +d.Year == selectedYear && d.Disease == selectedDisease ; });
@@ -200,7 +200,7 @@ function showMap(error, us, final_state, final_county) {
       .attr("transform", function(d, i) { return "translate(" + (0) + "," + (75 + i * 20) + ")"; });
     legend.append("rect").attr("width", 20).attr("height", 20).style("fill", colorscale);
     legend.append("text").attr("x", 26).attr("y", 10).text(function (d) { return  d; });
-    svg.append("text").attr("class", "label").attr("x", 0).attr("y", 55).text("Disease Prevalence");
+    svg.append("text").attr("class", "label").attr("x", 0).attr("y", 55).text("Prevalence");
 
 
     // var margin = {top: 30, right: 20, bottom: 60, left: 50},
@@ -279,7 +279,7 @@ function showMap(error, us, final_state, final_county) {
           var xAxis = d3.svg.axis().scale(xscale).orient("bottom").ticks(5).tickFormat(d3.format("d"));
           svg.append("g").attr("class", "axis").attr("transform", "translate(50,290)").call(xAxis);
           svg.append("text").attr("x", 195).attr("y", 325).text("Year");
-          
+
           var yAxis = d3.svg.axis().scale(yscale).orient("left").ticks(6);
           svg.append("g").attr("class", "axis").attr("transform", "translate(50,130)").call(yAxis);
           svg.append("text").attr("x", 15).attr("y", 120).text("Prevalence");
@@ -339,7 +339,7 @@ function showMap(error, us, final_state, final_county) {
           var xAxis = d3.svg.axis().scale(xscale).orient("bottom").ticks(5).tickFormat(d3.format("d"));
           svg.append("g").attr("class", "axis").attr("transform", "translate(100,290)").call(xAxis);
           svg.append("text").attr("x", 195).attr("y", 325).text("Year");
-          
+
           var yAxis = d3.svg.axis().scale(yscale).orient("left").ticks(6);
           svg.append("g").attr("class", "axis").attr("transform", "translate(100,130)").call(yAxis);
           svg.append("text").attr("x", 15).attr("y", 120).text("Cost");
@@ -374,7 +374,7 @@ function showMap(error, us, final_state, final_county) {
         }
 
 
-        
+
     }
 
 
