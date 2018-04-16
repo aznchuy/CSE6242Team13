@@ -86,6 +86,8 @@ function onchange() {
             .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv")
             .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv")
             .await(showMap);
+  d3.select("svg.costchart").remove();
+  d3.select("svg.chart").remove();
 };
 
 
@@ -112,6 +114,8 @@ function onchange2() {
             .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv")
     .await(showMap);
   selectedStates = [];
+  d3.select("svg.costchart").remove();
+  d3.select("svg.chart").remove();
 };
 
 
