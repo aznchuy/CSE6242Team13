@@ -34,7 +34,7 @@
 </style>
 
 <body>
-  <div class="screen"><h3>Pediatric Disease Prevalence by County</h3><h3>&nbsp;</h3></div>
+  <div class="screen"><h3>Pediatric Disease Prevalence by County</h3></div>
   <div class = "container" id = "YearDropdown"></div>
   <div class = "container" id = "DiseaseDropdown"></div>
   <div class = "container" id = "graph"></div>
@@ -56,7 +56,10 @@ var selectedDisease = "Acute Bronchitis and Bronchiolitis";
 var diseaseCat = ["Acute Bronchitis and Bronchiolitis",	"Acute Respiratory Diagnoses - Moderate",	"Acute Skin Diagnoses",	"Acute Stress and Anxiety",	"ADHD",	"Allergies",	"Asthma",	"Autism",	"BiPolar",	"Chronic Mental Health",	"Chronic Stress",	"Conduct and Behavior",	"Conjunctivitis and Eye Diagnoses",	"Dental Diagnoses",	"Depression",	"Depressive and Other Psychoses",	"Developmental Language Disorder",	"Developmental Speech and Learning",	"Diabetes2",	"Epilepsy and Epilepsy Complex",	"Major Mental Health",	"Psoriasis",	"Schizophrenia",	"Social Problems",	"Upper Respiratory Infectons"];
 
 ///call graph to initilize
-d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv").await(showMap);
+d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json")
+          .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv")
+          .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv")
+          .await(showMap);
 
 var selectedStates = [];
 
@@ -79,7 +82,10 @@ var options = select
 
 function onchange() {
   selectedYear = d3.event.target.value
-  d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv").defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv").await(showMap);
+  d3.queue().defer(d3.json, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/us.json")
+            .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_state.csv")
+            .defer(d3.csv, "https://raw.githubusercontent.com/aznchuy/CSE6242Team13/master/Final/final_county.csv")
+            .await(showMap);
 };
 
 
@@ -123,7 +129,7 @@ function showMap(error, us, final_state, final_county) {
   var filtered_county = final_county.filter(function(d) { return +d.Year == selectedYear && d.Disease == selectedDisease ; });
   var byID = {}
   filtered_county.forEach(function(d){byID[+d.County]=+d.Prevalence})
-  var colorscale = d3.scale.linear().domain([0, d3.max(filtered_county, function(d) { return +d.Prevalence; })]).range(["ghostwhite", "RoyalBlue"]);
+  var colorscale = d3.scale.linear().domain([0, d3.max(filtered_county, function(d) { return +d.Prevalence; })]).nice(9).range(["ghostwhite", "Blue"]);
   var tip = d3.tip().attr('class', 'tip').offset([0, 100]).html(function(d) { return "Top 5 Counties: <br>" + getCounty(filtered_county, +d.id); });
 
   svg.call(tip);
@@ -194,13 +200,13 @@ function showMap(error, us, final_state, final_county) {
 
 
 
-    var legend = svg.selectAll(".legend")
-      .data(colorscale.ticks(15).slice(1).reverse())
-      .enter().append("g")
-      .attr("transform", function(d, i) { return "translate(" + (0) + "," + (75 + i * 20) + ")"; });
-    legend.append("rect").attr("width", 20).attr("height", 20).style("fill", colorscale);
-    legend.append("text").attr("x", 26).attr("y", 10).text(function (d) { return  d; });
-    svg.append("text").attr("class", "label").attr("x", 0).attr("y", 55).text("Prevalence");
+var legend = svg.selectAll(".legend")
+  .data(colorscale.ticks(9).slice(1).reverse())
+  .enter().append("g")
+  .attr("transform", function(d, i) { return "translate(" + (0) + "," + (75 + i * 23) + ")"; });
+legend.append("rect").attr("width", 20).attr("height", 20).style("fill", colorscale).style("stroke", "#777").style("stroke-width", 0.5);
+legend.append("text").attr("x", 26).attr("y", 15).text(function (d) { return  d; });
+svg.append("text").attr("class", "label").attr("x", 0).attr("y", 60).text("Prevalence").style("font-weight", "bold");
 
 
     // var margin = {top: 30, right: 20, bottom: 60, left: 50},
@@ -258,7 +264,7 @@ function showMap(error, us, final_state, final_county) {
 
         d3.select("svg.chart").remove();
         if(prevalenceDataset.length != 0){
-          var svg = d3.select("#prevalence").append("svg").attr("class","chart").attr("width", 500).attr("height", 500);
+          var svg = d3.select("#prevalence").append("svg").attr("class","chart").attr("width", 250).attr("height", 250).attr("transform", "translate(950,-350)");
           var xscale = d3.scale.linear().domain([2011,2012]).range([0,160]);
           var yscale = d3.scale.linear().domain([min, max]).range([160, 0]);
 
@@ -274,29 +280,29 @@ function showMap(error, us, final_state, final_county) {
 
           var valueline = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(prevalenceDataset[0]));
+          svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[0]));
 
           var xAxis = d3.svg.axis().scale(xscale).orient("bottom").ticks(5).tickFormat(d3.format("d"));
-          svg.append("g").attr("class", "axis").attr("transform", "translate(50,290)").call(xAxis);
-          svg.append("text").attr("x", 195).attr("y", 325).text("Year");
+          svg.append("g").attr("class", "axis").attr("transform", "translate(50,200)").call(xAxis);
+          svg.append("text").attr("x", 195).attr("y", 235).text("Year");
 
           var yAxis = d3.svg.axis().scale(yscale).orient("left").ticks(6);
-          svg.append("g").attr("class", "axis").attr("transform", "translate(50,130)").call(yAxis);
-          svg.append("text").attr("x", 15).attr("y", 120).text("Prevalence");
+          svg.append("g").attr("class", "axis").attr("transform", "translate(50,40)").call(yAxis);
+          svg.append("text").attr("x", 15).attr("y", 30).text("Prevalence");
 
         }
         if(prevalenceDataset.length > 1){
           console.log("prevalenceDataset has at least 2")
           // var valueline2 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(prevalenceDataset[1]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[1]))
             .style("stroke", "red")
         }
         if(prevalenceDataset.length > 2){
           console.log("prevalenceDataset has at least 3")
           // var valueline3 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(prevalenceDataset[2]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[2]))
             .style("stroke", "green");
 
         }
@@ -304,7 +310,7 @@ function showMap(error, us, final_state, final_county) {
           console.log("prevalenceDataset has at least 4")
           // var valueline4 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(prevalenceDataset[3]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[3]))
             .style("stroke", "orange");
 
         }
@@ -312,7 +318,7 @@ function showMap(error, us, final_state, final_county) {
           console.log("prevalenceDataset has 5")
           // var valueline5 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(50,130)").attr("d", valueline(prevalenceDataset[4]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[4]))
             .style("stroke", "purple");
 
         }
@@ -328,47 +334,47 @@ function showMap(error, us, final_state, final_county) {
 
         d3.select("svg.costchart").remove();
         if(costDataset.length != 0){
-          var svg = d3.select("#cost").append("svg").attr("class","costchart").attr("width", 500).attr("height", 500);
+          var svg = d3.select("#cost").append("svg").attr("class","costchart").attr("width", 250).attr("height", 250).attr("transform", "translate(600,-600)");
           var xscale = d3.scale.linear().domain([2011,2012]).range([0,160]);
           var yscale = d3.scale.linear().domain([min, max]).range([160, 0]);
 
           var valueline = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[0]));
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[0]));
 
           var xAxis = d3.svg.axis().scale(xscale).orient("bottom").ticks(5).tickFormat(d3.format("d"));
-          svg.append("g").attr("class", "axis").attr("transform", "translate(100,290)").call(xAxis);
-          svg.append("text").attr("x", 195).attr("y", 325).text("Year");
+          svg.append("g").attr("class", "axis").attr("transform", "translate(100,200)").call(xAxis);
+          svg.append("text").attr("x", 215).attr("y", 235).text("Year");
 
-          var yAxis = d3.svg.axis().scale(yscale).orient("left").ticks(6);
-          svg.append("g").attr("class", "axis").attr("transform", "translate(100,130)").call(yAxis);
-          svg.append("text").attr("x", 15).attr("y", 120).text("Cost");
+          var yAxis = d3.svg.axis().scale(yscale).orient("left").ticks(6).tickFormat(d3.format(".2s"));
+          svg.append("g").attr("class", "axis").attr("transform", "translate(100,40)").call(yAxis);
+          svg.append("text").attr("x", 40).attr("y", 30).text("Cost");
 
         }
         if(costDataset.length > 1){
           // var valueline2 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[1]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[1]))
             .style("stroke", "red")
         }
         if(costDataset.length > 2){
           // var valueline3 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[2]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[2]))
             .style("stroke", "green");
 
         }
         if(costDataset.length > 3){
           // var valueline4 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[3]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[3]))
             .style("stroke", "orange");
 
         }
         if(costDataset.length == 5){
           // var valueline5 = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
 
-          svg.append("path").attr("class", "line").attr("transform", "translate(100,130)").attr("d", valueline(costDataset[4]))
+          svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[4]))
             .style("stroke", "purple");
 
         }
