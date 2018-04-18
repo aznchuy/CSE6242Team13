@@ -41,7 +41,7 @@ def main():
     X = df[cols].values.tolist()
     y = df['Cost'].tolist()
 
-    X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, random_state=0)
+    X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, random_state=0, test_size=0.33)
     linear_regression = linear_model.LinearRegression()
     linear_regression.fit(X_train, y_train)
     print("MAE: {0}".format(metrics.mean_absolute_error(y_test, linear_regression.predict(X_test))))
@@ -51,10 +51,11 @@ def main():
     coefficients = list(linear_regression.coef_)
     for index in range(0, len(cols)):
         regression_equation = regression_equation + ' + {0} * {1}'.format(coefficients[index], cols[index])
-    print(regression_equation)
+    print('Regression Equation: {0}\n'.format(regression_equation))
 
     final_df = make_prediction(linear_regression, prediction_df, cols)
     final_df.to_csv(os.path.join(save_directory, 'regression_predictions.csv'), index=False)
+    print('Finished. File wrote to directory: {0}'.format(os.path.join(save_directory, 'regression_predictions.csv')))
 
 
 if __name__ == '__main__':
