@@ -51,7 +51,7 @@ var width = 900,
 var svg = d3.select("#graph").append("svg").attr("width", width).attr("height", height);
 
 var selectedYear = "2011";
-var YearNum = ["2011","2012"];
+var yearNum = ["2011","2012", "2013"];
 var selectedDisease = "Acute Bronchitis and Bronchiolitis";
 var diseaseCat = ["Acute Bronchitis and Bronchiolitis",	"Acute Respiratory Diagnoses - Moderate",	"Acute Skin Diagnoses",	"Acute Stress and Anxiety",	"ADHD",	"Allergies",	"Asthma",	"Autism",	"BiPolar",	"Chronic Mental Health",	"Chronic Stress",	"Conduct and Behavior",	"Conjunctivitis and Eye Diagnoses",	"Dental Diagnoses",	"Depression",	"Depressive and Other Psychoses",	"Developmental Language Disorder",	"Developmental Speech and Learning",	"Diabetes2",	"Epilepsy and Epilepsy Complex",	"Major Mental Health",	"Psoriasis",	"Schizophrenia",	"Social Problems",	"Upper Respiratory Infectons"];
 
@@ -76,7 +76,7 @@ var select = d3.select('#YearDropdown')
 
 var options = select
   .selectAll('option')
-  .data(YearNum).enter()
+  .data(yearNum).enter()
   .append('option')
     .text(function (d) { return d; });
 
@@ -230,7 +230,7 @@ function showMap(error, us, final_state, final_county) {
           var svg = d3.select("#prevalence").append("svg").attr("class","chart").attr("width", 250).attr("height", 250).attr("transform", "translate(950,-350)");
           var xscale = d3.scale.linear().domain([+years[0][0],+years[0][years[0].length - 1]]).range([0,160]);
           var yscale = d3.scale.linear().domain([min, max]).range([160, 0]);
-          var valueline = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
+          var valueline = d3.svg.line().x(function(d, i) { return xscale(Number(yearNum[0]) + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(50,40)").attr("d", valueline(prevalenceDataset[0]));
 
@@ -263,16 +263,15 @@ function showMap(error, us, final_state, final_county) {
 
         }
 
-
         findMaxMin(costDataset)
 
         d3.select("svg.costchart").remove();
         if(costDataset.length != 0){
           var svg = d3.select("#cost").append("svg").attr("class","costchart").attr("width", 250).attr("height", 250).attr("transform", "translate(600,-600)");
-          var xscale = d3.scale.linear().domain([2011,2012]).range([0,160]);
+          var xscale = d3.scale.linear().domain(yearNum.map(Number)).range([0,160]);
           var yscale = d3.scale.linear().domain([min, max]).range([160, 0]);
 
-          var valueline = d3.svg.line().x(function(d, i) { return xscale(2011 + i); }).y(function(d) { return yscale(d); });
+          var valueline = d3.svg.line().x(function(d, i) { return xscale(Number(yearNum[0]) + i); }).y(function(d) { return yscale(d); });
 
           svg.append("path").attr("class", "line").attr("transform", "translate(100,40)").attr("d", valueline(costDataset[0]));
 
