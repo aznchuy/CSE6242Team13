@@ -1,24 +1,25 @@
 # CSE6242Team13
-CSE6242 Group Project for Team13
+**CSE6242 Group Project for Team13**
 
-Description:
+
+**Description:**
 
 This is the repository for Team 13 for Data Visualization CSE6242 at the Georgia Institue of Technology. All code in this repository deals with analyzing and visualizing pediatric prevalence and cost data in the United States.
 
-Installation:
+**Installation:**
 
 Our code does not require any installation to run. All dependencies should be in the repository.
 
-Execution:
+**Execution:**
 
 To run the regression, simply open a terminal and naviagate to the folder containing the script "regression_code.py" (it should be the head folder of the repository), and type the command:
 
-python regression_code.py
+<p align="center"> <b>python regression_code.py</b> </p>
 
 To run the visualization, navigate to the src folder and run 'pediatric_disease_map.html'
 
 
-If you wish to contribute:
+**If you wish to contribute:**
 
 If you wish to contribute data to enhance our analysis and visualization, navigate to the data folder. 
 
