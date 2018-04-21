@@ -11,8 +11,19 @@ Our code does not require any installation to run. All dependencies should be in
 
 Execution:
 
+To run the regression, simply open a terminal and naviagate to the folder containing the script "regression_code.py" (it should be the head folder of the repository), and type the command:
+
+python regression_code.py
+
 To run the visualization, navigate to the src folder and run 'pediatric_disease_map.html'
+
 
 If you wish to contribute:
 
-If you wish to contribute data to enhance our analysis and visualization, add prevalence and cost data to the Data folder. Follow the formating for the other years already provided in the folder. Once you have added data for a new year, navigate to the src folder and open the 'pediatric_disease_map.html'. Add the year to the array named 'yearNum' on line 54. 
+If you wish to contribute data to enhance our analysis and visualization, navigate to the data folder. 
+
+Rename the directory with the data you wish to add to the year of the claims from the data and place it in either the Cost or Prevalence directory depending on what type of data you are contributing. (For example, if you have a directory with cost data for 2013 for all 25 diseases, rename the directory to 2013 and place this directory in the Data/Cost directory.) 
+
+After you have added the data, you simply need to rerun the regression file using the same command as above. 
+
+Once you have rerun the regression, navigate to the src folder and open the 'pediatric_disease_map.html'. Add the year to the array named 'yearNum' on line 54 so that our visualization knows to display that year.
