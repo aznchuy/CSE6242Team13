@@ -27,4 +27,4 @@ Rename the directory with the data you wish to add to the year of the claims fro
 
 After you have added the data, you simply need to rerun the regression file using the same command as above. 
 
-Once you have rerun the regression, navigate to the src folder and open the 'pediatric_disease_map.html'. Add the year to the array named 'yearNum' on line 54 so that our visualization knows to display that year.
+To update the visualization with the new dataset, you can use the "Data Prep.xlsx" file (instructions included in the file) to generate the input csv files for the visualization code. Now navigate to the src folder and open the 'pediatric_disease_map.html'. Add the year to the array named 'yearNum' on line 54 so that our visualization knows to display that year.
